@@ -1,0 +1,600 @@
+Analysis & Synthesis report for DE0_TOP
+Mon Sep 11 08:50:10 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |DE0_TOP|ps2:ps2_inst|state_next
+  9. State Machine - |DE0_TOP|ps2:ps2_inst|state_reg
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Sep 11 08:50:10 2023           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; DE0_TOP                                         ;
+; Top-level Entity Name              ; DE0_TOP                                         ;
+; Family                             ; Cyclone III                                     ;
+; Total logic elements               ; 143                                             ;
+;     Total combinational functions  ; 114                                             ;
+;     Dedicated logic registers      ; 63                                              ;
+; Total registers                    ; 63                                              ;
+; Total pins                         ; 252                                             ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C16F484C6       ;                    ;
+; Top-level entity name                                                      ; DE0_TOP            ; DE0_TOP            ;
+; Family name                                                                ; CycloneIII         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                       ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../src/synthesis/modules/deb.v   ; yes             ; User Verilog HDL File  ; C:/Users/admin/Desktop/VLSI_Domaci/VLSI-PS2-Keyboard-controller-main/VLSI-PS2-Keyboard-controller-main/src/synthesis/modules/deb.v ;         ;
+; ../src/synthesis/modules/hex.v   ; yes             ; User Verilog HDL File  ; C:/Users/admin/Desktop/VLSI_Domaci/VLSI-PS2-Keyboard-controller-main/VLSI-PS2-Keyboard-controller-main/src/synthesis/modules/hex.v ;         ;
+; ../src/synthesis/modules/ps2.v   ; yes             ; User Verilog HDL File  ; C:/Users/admin/Desktop/VLSI_Domaci/VLSI-PS2-Keyboard-controller-main/VLSI-PS2-Keyboard-controller-main/src/synthesis/modules/ps2.v ;         ;
+; ../src/synthesis/DE0_TOP.v       ; yes             ; User Verilog HDL File  ; C:/Users/admin/Desktop/VLSI_Domaci/VLSI-PS2-Keyboard-controller-main/VLSI-PS2-Keyboard-controller-main/src/synthesis/DE0_TOP.v     ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimated Total logic elements              ; 143            ;
+;                                             ;                ;
+; Total combinational functions               ; 114            ;
+; Logic element usage by number of LUT inputs ;                ;
+;     -- 4 input functions                    ; 54             ;
+;     -- 3 input functions                    ; 22             ;
+;     -- <=2 input functions                  ; 38             ;
+;                                             ;                ;
+; Logic elements by mode                      ;                ;
+;     -- normal mode                          ; 107            ;
+;     -- arithmetic mode                      ; 7              ;
+;                                             ;                ;
+; Total registers                             ; 63             ;
+;     -- Dedicated logic registers            ; 63             ;
+;     -- I/O registers                        ; 0              ;
+;                                             ;                ;
+; I/O pins                                    ; 252            ;
+; Embedded Multiplier 9-bit elements          ; 0              ;
+; Maximum fan-out node                        ; CLOCK_50~input ;
+; Maximum fan-out                             ; 37             ;
+; Total fan-out                               ; 955            ;
+; Average fan-out                             ; 1.21           ;
++---------------------------------------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                 ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name         ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------+--------------+
+; |DE0_TOP                   ; 114 (0)           ; 63 (0)       ; 0           ; 0            ; 0       ; 0         ; 252  ; 0            ; |DE0_TOP                    ; work         ;
+;    |deb:deb_inst|          ; 12 (12)           ; 11 (11)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|deb:deb_inst       ; work         ;
+;    |hex:hex_controller|    ; 56 (56)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|hex:hex_controller ; work         ;
+;    |ps2:ps2_inst|          ; 46 (46)           ; 52 (52)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|ps2:ps2_inst       ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++----------------------------------------------------------------------------------------------------+
+; State Machine - |DE0_TOP|ps2:ps2_inst|state_next                                                   ;
++----------------------+-----------------+------------------+----------------------+-----------------+
+; Name                 ; state_next.STOP ; state_next.CHECK ; state_next.RECEIVING ; state_next.IDLE ;
++----------------------+-----------------+------------------+----------------------+-----------------+
+; state_next.IDLE      ; 0               ; 0                ; 0                    ; 0               ;
+; state_next.RECEIVING ; 0               ; 0                ; 1                    ; 1               ;
+; state_next.CHECK     ; 0               ; 1                ; 0                    ; 1               ;
+; state_next.STOP      ; 1               ; 0                ; 0                    ; 1               ;
++----------------------+-----------------+------------------+----------------------+-----------------+
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------+
+; State Machine - |DE0_TOP|ps2:ps2_inst|state_reg                                               ;
++---------------------+----------------+-----------------+---------------------+----------------+
+; Name                ; state_reg.STOP ; state_reg.CHECK ; state_reg.RECEIVING ; state_reg.IDLE ;
++---------------------+----------------+-----------------+---------------------+----------------+
+; state_reg.IDLE      ; 0              ; 0               ; 0                   ; 0              ;
+; state_reg.RECEIVING ; 0              ; 0               ; 1                   ; 1              ;
+; state_reg.CHECK     ; 0              ; 1               ; 0                   ; 1              ;
+; state_reg.STOP      ; 1              ; 0               ; 0                   ; 1              ;
++---------------------+----------------+-----------------+---------------------+----------------+
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; ps2:ps2_inst|state_next~6             ; Lost fanout        ;
+; ps2:ps2_inst|state_next~7             ; Lost fanout        ;
+; ps2:ps2_inst|state_reg~4              ; Lost fanout        ;
+; ps2:ps2_inst|state_reg~5              ; Lost fanout        ;
+; Total Number of Removed Registers = 4 ;                    ;
++---------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 63    ;
+; Number of registers using Synchronous Clear  ; 8     ;
+; Number of registers using Synchronous Load   ; 18    ;
+; Number of registers using Asynchronous Clear ; 37    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |DE0_TOP|ps2:ps2_inst|Selector1 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Copyright (C) 1991-2013 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Mon Sep 11 08:50:04 2023
+Info: Command: quartus_map --family=CycloneIII --source=../src/synthesis/modules/deb.v --source=../src/synthesis/modules/hex.v --source=../src/synthesis/modules/ps2.v --source=../src/synthesis/DE0_TOP.v DE0_TOP
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file /users/admin/desktop/vlsi_domaci/vlsi-ps2-keyboard-controller-main/vlsi-ps2-keyboard-controller-main/src/synthesis/modules/deb.v
+    Info (12023): Found entity 1: deb
+Info (12021): Found 1 design units, including 1 entities, in source file /users/admin/desktop/vlsi_domaci/vlsi-ps2-keyboard-controller-main/vlsi-ps2-keyboard-controller-main/src/synthesis/modules/hex.v
+    Info (12023): Found entity 1: hex
+Info (12021): Found 1 design units, including 1 entities, in source file /users/admin/desktop/vlsi_domaci/vlsi-ps2-keyboard-controller-main/vlsi-ps2-keyboard-controller-main/src/synthesis/modules/ps2.v
+    Info (12023): Found entity 1: ps2
+Info (12021): Found 1 design units, including 1 entities, in source file /users/admin/desktop/vlsi_domaci/vlsi-ps2-keyboard-controller-main/vlsi-ps2-keyboard-controller-main/src/synthesis/de0_top.v
+    Info (12023): Found entity 1: DE0_TOP
+Warning (10236): Verilog HDL Implicit Net warning at deb.v(9): created implicit net for "in_changed"
+Warning (10236): Verilog HDL Implicit Net warning at deb.v(10): created implicit net for "in_stable"
+Info (12127): Elaborating entity "DE0_TOP" for the top level hierarchy
+Warning (10034): Output port "LEDG" at DE0_TOP.v(125) has no driver
+Warning (10034): Output port "DRAM_ADDR" at DE0_TOP.v(134) has no driver
+Warning (10034): Output port "FL_ADDR" at DE0_TOP.v(148) has no driver
+Warning (10034): Output port "VGA_R" at DE0_TOP.v(176) has no driver
+Warning (10034): Output port "VGA_G" at DE0_TOP.v(177) has no driver
+Warning (10034): Output port "VGA_B" at DE0_TOP.v(178) has no driver
+Warning (10034): Output port "GPIO0_CLKOUT" at DE0_TOP.v(181) has no driver
+Warning (10034): Output port "GPIO1_CLKOUT" at DE0_TOP.v(184) has no driver
+Warning (10034): Output port "UART_TXD" at DE0_TOP.v(128) has no driver
+Warning (10034): Output port "UART_CTS" at DE0_TOP.v(130) has no driver
+Warning (10034): Output port "DRAM_LDQM" at DE0_TOP.v(135) has no driver
+Warning (10034): Output port "DRAM_UDQM" at DE0_TOP.v(136) has no driver
+Warning (10034): Output port "DRAM_WE_N" at DE0_TOP.v(137) has no driver
+Warning (10034): Output port "DRAM_CAS_N" at DE0_TOP.v(138) has no driver
+Warning (10034): Output port "DRAM_RAS_N" at DE0_TOP.v(139) has no driver
+Warning (10034): Output port "DRAM_CS_N" at DE0_TOP.v(140) has no driver
+Warning (10034): Output port "DRAM_BA_0" at DE0_TOP.v(141) has no driver
+Warning (10034): Output port "DRAM_BA_1" at DE0_TOP.v(142) has no driver
+Warning (10034): Output port "DRAM_CLK" at DE0_TOP.v(143) has no driver
+Warning (10034): Output port "DRAM_CKE" at DE0_TOP.v(144) has no driver
+Warning (10034): Output port "FL_WE_N" at DE0_TOP.v(149) has no driver
+Warning (10034): Output port "FL_RST_N" at DE0_TOP.v(150) has no driver
+Warning (10034): Output port "FL_OE_N" at DE0_TOP.v(151) has no driver
+Warning (10034): Output port "FL_CE_N" at DE0_TOP.v(152) has no driver
+Warning (10034): Output port "FL_WP_N" at DE0_TOP.v(153) has no driver
+Warning (10034): Output port "FL_BYTE_N" at DE0_TOP.v(154) has no driver
+Warning (10034): Output port "LCD_BLON" at DE0_TOP.v(158) has no driver
+Warning (10034): Output port "LCD_RW" at DE0_TOP.v(159) has no driver
+Warning (10034): Output port "LCD_EN" at DE0_TOP.v(160) has no driver
+Warning (10034): Output port "LCD_RS" at DE0_TOP.v(161) has no driver
+Warning (10034): Output port "SD_CLK" at DE0_TOP.v(166) has no driver
+Warning (10034): Output port "VGA_HS" at DE0_TOP.v(174) has no driver
+Warning (10034): Output port "VGA_VS" at DE0_TOP.v(175) has no driver
+Info (12128): Elaborating entity "deb" for hierarchy "deb:deb_inst"
+Warning (10230): Verilog HDL assignment warning at deb.v(25): truncated value with size 32 to match size of target (8)
+Info (12128): Elaborating entity "ps2" for hierarchy "ps2:ps2_inst"
+Info (12128): Elaborating entity "hex" for hierarchy "hex:hex_controller"
+Warning (13039): The following bidir pins have no drivers
+    Warning (13040): Bidir "PS2_KBDAT" has no driver
+    Warning (13040): Bidir "PS2_KBCLK" has no driver
+    Warning (13040): Bidir "DRAM_DQ[0]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[1]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[2]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[3]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[4]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[5]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[6]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[7]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[8]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[9]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[10]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[11]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[12]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[13]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[14]" has no driver
+    Warning (13040): Bidir "DRAM_DQ[15]" has no driver
+    Warning (13040): Bidir "FL_DQ[0]" has no driver
+    Warning (13040): Bidir "FL_DQ[1]" has no driver
+    Warning (13040): Bidir "FL_DQ[2]" has no driver
+    Warning (13040): Bidir "FL_DQ[3]" has no driver
+    Warning (13040): Bidir "FL_DQ[4]" has no driver
+    Warning (13040): Bidir "FL_DQ[5]" has no driver
+    Warning (13040): Bidir "FL_DQ[6]" has no driver
+    Warning (13040): Bidir "FL_DQ[7]" has no driver
+    Warning (13040): Bidir "FL_DQ[8]" has no driver
+    Warning (13040): Bidir "FL_DQ[9]" has no driver
+    Warning (13040): Bidir "FL_DQ[10]" has no driver
+    Warning (13040): Bidir "FL_DQ[11]" has no driver
+    Warning (13040): Bidir "FL_DQ[12]" has no driver
+    Warning (13040): Bidir "FL_DQ[13]" has no driver
+    Warning (13040): Bidir "FL_DQ[14]" has no driver
+    Warning (13040): Bidir "FL_DQ15_AM1" has no driver
+    Warning (13040): Bidir "LCD_DATA[0]" has no driver
+    Warning (13040): Bidir "LCD_DATA[1]" has no driver
+    Warning (13040): Bidir "LCD_DATA[2]" has no driver
+    Warning (13040): Bidir "LCD_DATA[3]" has no driver
+    Warning (13040): Bidir "LCD_DATA[4]" has no driver
+    Warning (13040): Bidir "LCD_DATA[5]" has no driver
+    Warning (13040): Bidir "LCD_DATA[6]" has no driver
+    Warning (13040): Bidir "LCD_DATA[7]" has no driver
+    Warning (13040): Bidir "SD_DAT0" has no driver
+    Warning (13040): Bidir "SD_DAT3" has no driver
+    Warning (13040): Bidir "SD_CMD" has no driver
+    Warning (13040): Bidir "PS2_MSDAT" has no driver
+    Warning (13040): Bidir "PS2_MSCLK" has no driver
+    Warning (13040): Bidir "GPIO0_D[0]" has no driver
+    Warning (13040): Bidir "GPIO0_D[1]" has no driver
+    Warning (13040): Bidir "GPIO0_D[2]" has no driver
+    Warning (13040): Bidir "GPIO0_D[3]" has no driver
+    Warning (13040): Bidir "GPIO0_D[4]" has no driver
+    Warning (13040): Bidir "GPIO0_D[5]" has no driver
+    Warning (13040): Bidir "GPIO0_D[6]" has no driver
+    Warning (13040): Bidir "GPIO0_D[7]" has no driver
+    Warning (13040): Bidir "GPIO0_D[8]" has no driver
+    Warning (13040): Bidir "GPIO0_D[9]" has no driver
+    Warning (13040): Bidir "GPIO0_D[10]" has no driver
+    Warning (13040): Bidir "GPIO0_D[11]" has no driver
+    Warning (13040): Bidir "GPIO0_D[12]" has no driver
+    Warning (13040): Bidir "GPIO0_D[13]" has no driver
+    Warning (13040): Bidir "GPIO0_D[14]" has no driver
+    Warning (13040): Bidir "GPIO0_D[15]" has no driver
+    Warning (13040): Bidir "GPIO0_D[16]" has no driver
+    Warning (13040): Bidir "GPIO0_D[17]" has no driver
+    Warning (13040): Bidir "GPIO0_D[18]" has no driver
+    Warning (13040): Bidir "GPIO0_D[19]" has no driver
+    Warning (13040): Bidir "GPIO0_D[20]" has no driver
+    Warning (13040): Bidir "GPIO0_D[21]" has no driver
+    Warning (13040): Bidir "GPIO0_D[22]" has no driver
+    Warning (13040): Bidir "GPIO0_D[23]" has no driver
+    Warning (13040): Bidir "GPIO0_D[24]" has no driver
+    Warning (13040): Bidir "GPIO0_D[25]" has no driver
+    Warning (13040): Bidir "GPIO0_D[26]" has no driver
+    Warning (13040): Bidir "GPIO0_D[27]" has no driver
+    Warning (13040): Bidir "GPIO0_D[28]" has no driver
+    Warning (13040): Bidir "GPIO0_D[29]" has no driver
+    Warning (13040): Bidir "GPIO0_D[30]" has no driver
+    Warning (13040): Bidir "GPIO0_D[31]" has no driver
+    Warning (13040): Bidir "GPIO1_D[0]" has no driver
+    Warning (13040): Bidir "GPIO1_D[1]" has no driver
+    Warning (13040): Bidir "GPIO1_D[2]" has no driver
+    Warning (13040): Bidir "GPIO1_D[3]" has no driver
+    Warning (13040): Bidir "GPIO1_D[4]" has no driver
+    Warning (13040): Bidir "GPIO1_D[5]" has no driver
+    Warning (13040): Bidir "GPIO1_D[6]" has no driver
+    Warning (13040): Bidir "GPIO1_D[7]" has no driver
+    Warning (13040): Bidir "GPIO1_D[8]" has no driver
+    Warning (13040): Bidir "GPIO1_D[9]" has no driver
+    Warning (13040): Bidir "GPIO1_D[10]" has no driver
+    Warning (13040): Bidir "GPIO1_D[11]" has no driver
+    Warning (13040): Bidir "GPIO1_D[12]" has no driver
+    Warning (13040): Bidir "GPIO1_D[13]" has no driver
+    Warning (13040): Bidir "GPIO1_D[14]" has no driver
+    Warning (13040): Bidir "GPIO1_D[15]" has no driver
+    Warning (13040): Bidir "GPIO1_D[16]" has no driver
+    Warning (13040): Bidir "GPIO1_D[17]" has no driver
+    Warning (13040): Bidir "GPIO1_D[18]" has no driver
+    Warning (13040): Bidir "GPIO1_D[19]" has no driver
+    Warning (13040): Bidir "GPIO1_D[20]" has no driver
+    Warning (13040): Bidir "GPIO1_D[21]" has no driver
+    Warning (13040): Bidir "GPIO1_D[22]" has no driver
+    Warning (13040): Bidir "GPIO1_D[23]" has no driver
+    Warning (13040): Bidir "GPIO1_D[24]" has no driver
+    Warning (13040): Bidir "GPIO1_D[25]" has no driver
+    Warning (13040): Bidir "GPIO1_D[26]" has no driver
+    Warning (13040): Bidir "GPIO1_D[27]" has no driver
+    Warning (13040): Bidir "GPIO1_D[28]" has no driver
+    Warning (13040): Bidir "GPIO1_D[29]" has no driver
+    Warning (13040): Bidir "GPIO1_D[30]" has no driver
+    Warning (13040): Bidir "GPIO1_D[31]" has no driver
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX0_DP" is stuck at VCC
+    Warning (13410): Pin "HEX1_DP" is stuck at VCC
+    Warning (13410): Pin "HEX2_DP" is stuck at VCC
+    Warning (13410): Pin "HEX3_DP" is stuck at VCC
+    Warning (13410): Pin "LEDG[0]" is stuck at GND
+    Warning (13410): Pin "LEDG[1]" is stuck at GND
+    Warning (13410): Pin "LEDG[2]" is stuck at GND
+    Warning (13410): Pin "LEDG[3]" is stuck at GND
+    Warning (13410): Pin "LEDG[4]" is stuck at GND
+    Warning (13410): Pin "LEDG[5]" is stuck at GND
+    Warning (13410): Pin "LEDG[6]" is stuck at GND
+    Warning (13410): Pin "LEDG[7]" is stuck at GND
+    Warning (13410): Pin "LEDG[8]" is stuck at GND
+    Warning (13410): Pin "LEDG[9]" is stuck at GND
+    Warning (13410): Pin "UART_TXD" is stuck at GND
+    Warning (13410): Pin "UART_CTS" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND
+    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND
+    Warning (13410): Pin "DRAM_LDQM" is stuck at GND
+    Warning (13410): Pin "DRAM_UDQM" is stuck at GND
+    Warning (13410): Pin "DRAM_WE_N" is stuck at GND
+    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND
+    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND
+    Warning (13410): Pin "DRAM_CS_N" is stuck at GND
+    Warning (13410): Pin "DRAM_BA_0" is stuck at GND
+    Warning (13410): Pin "DRAM_BA_1" is stuck at GND
+    Warning (13410): Pin "DRAM_CLK" is stuck at GND
+    Warning (13410): Pin "DRAM_CKE" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[0]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[1]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[2]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[3]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[4]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[5]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[6]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[7]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[8]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[9]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[10]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[11]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[12]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[13]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[14]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[15]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[16]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[17]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[18]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[19]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[20]" is stuck at GND
+    Warning (13410): Pin "FL_ADDR[21]" is stuck at GND
+    Warning (13410): Pin "FL_WE_N" is stuck at GND
+    Warning (13410): Pin "FL_RST_N" is stuck at GND
+    Warning (13410): Pin "FL_OE_N" is stuck at GND
+    Warning (13410): Pin "FL_CE_N" is stuck at GND
+    Warning (13410): Pin "FL_WP_N" is stuck at GND
+    Warning (13410): Pin "FL_BYTE_N" is stuck at GND
+    Warning (13410): Pin "LCD_BLON" is stuck at GND
+    Warning (13410): Pin "LCD_RW" is stuck at GND
+    Warning (13410): Pin "LCD_EN" is stuck at GND
+    Warning (13410): Pin "LCD_RS" is stuck at GND
+    Warning (13410): Pin "SD_CLK" is stuck at GND
+    Warning (13410): Pin "VGA_HS" is stuck at GND
+    Warning (13410): Pin "VGA_VS" is stuck at GND
+    Warning (13410): Pin "VGA_R[0]" is stuck at GND
+    Warning (13410): Pin "VGA_R[1]" is stuck at GND
+    Warning (13410): Pin "VGA_R[2]" is stuck at GND
+    Warning (13410): Pin "VGA_R[3]" is stuck at GND
+    Warning (13410): Pin "VGA_G[0]" is stuck at GND
+    Warning (13410): Pin "VGA_G[1]" is stuck at GND
+    Warning (13410): Pin "VGA_G[2]" is stuck at GND
+    Warning (13410): Pin "VGA_G[3]" is stuck at GND
+    Warning (13410): Pin "VGA_B[0]" is stuck at GND
+    Warning (13410): Pin "VGA_B[1]" is stuck at GND
+    Warning (13410): Pin "VGA_B[2]" is stuck at GND
+    Warning (13410): Pin "VGA_B[3]" is stuck at GND
+    Warning (13410): Pin "GPIO0_CLKOUT[0]" is stuck at GND
+    Warning (13410): Pin "GPIO0_CLKOUT[1]" is stuck at GND
+    Warning (13410): Pin "GPIO1_CLKOUT[0]" is stuck at GND
+    Warning (13410): Pin "GPIO1_CLKOUT[1]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 4 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 21 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "CLOCK_50_2"
+    Warning (15610): No output dependent on input pin "BUTTON[0]"
+    Warning (15610): No output dependent on input pin "BUTTON[1]"
+    Warning (15610): No output dependent on input pin "BUTTON[2]"
+    Warning (15610): No output dependent on input pin "SW[0]"
+    Warning (15610): No output dependent on input pin "SW[1]"
+    Warning (15610): No output dependent on input pin "SW[2]"
+    Warning (15610): No output dependent on input pin "SW[3]"
+    Warning (15610): No output dependent on input pin "SW[4]"
+    Warning (15610): No output dependent on input pin "SW[5]"
+    Warning (15610): No output dependent on input pin "SW[6]"
+    Warning (15610): No output dependent on input pin "SW[7]"
+    Warning (15610): No output dependent on input pin "SW[8]"
+    Warning (15610): No output dependent on input pin "UART_RXD"
+    Warning (15610): No output dependent on input pin "UART_RTS"
+    Warning (15610): No output dependent on input pin "FL_RY"
+    Warning (15610): No output dependent on input pin "SD_WP_N"
+    Warning (15610): No output dependent on input pin "GPIO0_CLKIN[0]"
+    Warning (15610): No output dependent on input pin "GPIO0_CLKIN[1]"
+    Warning (15610): No output dependent on input pin "GPIO1_CLKIN[0]"
+    Warning (15610): No output dependent on input pin "GPIO1_CLKIN[1]"
+Info (21057): Implemented 395 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 23 input pins
+    Info (21059): Implemented 118 output pins
+    Info (21060): Implemented 111 bidirectional pins
+    Info (21061): Implemented 143 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 262 warnings
+    Info: Peak virtual memory: 437 megabytes
+    Info: Processing ended: Mon Sep 11 08:50:10 2023
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
+
+

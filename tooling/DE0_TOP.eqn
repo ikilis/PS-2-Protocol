@@ -1,0 +1,2994 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--E1_received_data_next[0] is ps2:ps2_inst|received_data_next[0] at FF_X27_Y28_N9
+--register power-up is low
+
+E1_received_data_next[0] = DFFEAS(E1L63, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[0],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[1] is ps2:ps2_inst|received_data_next[1] at FF_X29_Y28_N19
+--register power-up is low
+
+E1_received_data_next[1] = DFFEAS(E1L64, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[1],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[2] is ps2:ps2_inst|received_data_next[2] at FF_X29_Y28_N27
+--register power-up is low
+
+E1_received_data_next[2] = DFFEAS(E1L65, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[2],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[3] is ps2:ps2_inst|received_data_next[3] at FF_X27_Y28_N15
+--register power-up is low
+
+E1_received_data_next[3] = DFFEAS(E1L66, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[3],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[4] is ps2:ps2_inst|received_data_next[4] at FF_X27_Y28_N13
+--register power-up is low
+
+E1_received_data_next[4] = DFFEAS(E1L67, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[4],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[5] is ps2:ps2_inst|received_data_next[5] at FF_X27_Y28_N31
+--register power-up is low
+
+E1_received_data_next[5] = DFFEAS(E1L68, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[5],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[6] is ps2:ps2_inst|received_data_next[6] at FF_X27_Y28_N1
+--register power-up is low
+
+E1_received_data_next[6] = DFFEAS(E1L69, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[6],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[7] is ps2:ps2_inst|received_data_next[7] at FF_X27_Y28_N11
+--register power-up is low
+
+E1_received_data_next[7] = DFFEAS(E1L70, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[7],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[8] is ps2:ps2_inst|received_data_next[8] at FF_X27_Y28_N5
+--register power-up is low
+
+E1_received_data_next[8] = DFFEAS(E1L71, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[8],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[9] is ps2:ps2_inst|received_data_next[9] at FF_X27_Y28_N23
+--register power-up is low
+
+E1_received_data_next[9] = DFFEAS(E1L72, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[9],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[10] is ps2:ps2_inst|received_data_next[10] at FF_X29_Y28_N1
+--register power-up is low
+
+E1_received_data_next[10] = DFFEAS(E1L73, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[10],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[11] is ps2:ps2_inst|received_data_next[11] at FF_X27_Y28_N21
+--register power-up is low
+
+E1_received_data_next[11] = DFFEAS(E1L74, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[11],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[12] is ps2:ps2_inst|received_data_next[12] at FF_X29_Y28_N15
+--register power-up is low
+
+E1_received_data_next[12] = DFFEAS(E1L75, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[12],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[13] is ps2:ps2_inst|received_data_next[13] at FF_X29_Y28_N7
+--register power-up is low
+
+E1_received_data_next[13] = DFFEAS(E1L76, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[13],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[14] is ps2:ps2_inst|received_data_next[14] at FF_X29_Y28_N5
+--register power-up is low
+
+E1_received_data_next[14] = DFFEAS(E1L77, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[14],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_received_data_next[15] is ps2:ps2_inst|received_data_next[15] at FF_X29_Y28_N17
+--register power-up is low
+
+E1_received_data_next[15] = DFFEAS(E1L78, !GLOBAL(C1L36),  ,  ,  , E1_received_data_reg[15],  ,  , !E1_state_reg.RECEIVING);
+
+
+--E1_parity_next is ps2:ps2_inst|parity_next at FF_X29_Y28_N9
+--register power-up is low
+
+E1_parity_next = DFFEAS(E1L44, !GLOBAL(C1L36),  ,  ,  , E1_parity_reg,  ,  , !E1_state_reg.RECEIVING);
+
+
+--C1_cnt_reg[0] is deb:deb_inst|cnt_reg[0] at FF_X23_Y25_N15
+--register power-up is low
+
+C1_cnt_reg[0] = DFFEAS(C1L5, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[1] is deb:deb_inst|cnt_reg[1] at FF_X23_Y25_N17
+--register power-up is low
+
+C1_cnt_reg[1] = DFFEAS(C1L8, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[2] is deb:deb_inst|cnt_reg[2] at FF_X23_Y25_N19
+--register power-up is low
+
+C1_cnt_reg[2] = DFFEAS(C1L11, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[3] is deb:deb_inst|cnt_reg[3] at FF_X23_Y25_N21
+--register power-up is low
+
+C1_cnt_reg[3] = DFFEAS(C1L14, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[4] is deb:deb_inst|cnt_reg[4] at FF_X23_Y25_N23
+--register power-up is low
+
+C1_cnt_reg[4] = DFFEAS(C1L17, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[5] is deb:deb_inst|cnt_reg[5] at FF_X23_Y25_N25
+--register power-up is low
+
+C1_cnt_reg[5] = DFFEAS(C1L20, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[6] is deb:deb_inst|cnt_reg[6] at FF_X23_Y25_N27
+--register power-up is low
+
+C1_cnt_reg[6] = DFFEAS(C1L23, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--C1_cnt_reg[7] is deb:deb_inst|cnt_reg[7] at FF_X23_Y25_N29
+--register power-up is low
+
+C1_cnt_reg[7] = DFFEAS(C1L26, GLOBAL(A1L12), A1L598,  ,  ,  ,  , C1_in_changed,  );
+
+
+--E1_cnt_next[3] is ps2:ps2_inst|cnt_next[3] at FF_X29_Y28_N31
+--register power-up is low
+
+E1_cnt_next[3] = DFFEAS(E1L1, !GLOBAL(C1L36),  ,  ,  , E1_cnt_reg[3],  ,  , !E1_state_reg.RECEIVING);
+
+
+--C1L5 is deb:deb_inst|cnt_reg[0]~8 at LCCOMB_X23_Y25_N14
+C1L5 = C1_cnt_reg[0] $ (VCC);
+
+--C1L6 is deb:deb_inst|cnt_reg[0]~9 at LCCOMB_X23_Y25_N14
+C1L6 = CARRY(C1_cnt_reg[0]);
+
+
+--C1L8 is deb:deb_inst|cnt_reg[1]~10 at LCCOMB_X23_Y25_N16
+C1L8 = (C1_cnt_reg[1] & (!C1L6)) # (!C1_cnt_reg[1] & ((C1L6) # (GND)));
+
+--C1L9 is deb:deb_inst|cnt_reg[1]~11 at LCCOMB_X23_Y25_N16
+C1L9 = CARRY((!C1L6) # (!C1_cnt_reg[1]));
+
+
+--C1L11 is deb:deb_inst|cnt_reg[2]~12 at LCCOMB_X23_Y25_N18
+C1L11 = (C1_cnt_reg[2] & (C1L9 $ (GND))) # (!C1_cnt_reg[2] & (!C1L9 & VCC));
+
+--C1L12 is deb:deb_inst|cnt_reg[2]~13 at LCCOMB_X23_Y25_N18
+C1L12 = CARRY((C1_cnt_reg[2] & !C1L9));
+
+
+--C1L14 is deb:deb_inst|cnt_reg[3]~14 at LCCOMB_X23_Y25_N20
+C1L14 = (C1_cnt_reg[3] & (!C1L12)) # (!C1_cnt_reg[3] & ((C1L12) # (GND)));
+
+--C1L15 is deb:deb_inst|cnt_reg[3]~15 at LCCOMB_X23_Y25_N20
+C1L15 = CARRY((!C1L12) # (!C1_cnt_reg[3]));
+
+
+--C1L17 is deb:deb_inst|cnt_reg[4]~16 at LCCOMB_X23_Y25_N22
+C1L17 = (C1_cnt_reg[4] & (C1L15 $ (GND))) # (!C1_cnt_reg[4] & (!C1L15 & VCC));
+
+--C1L18 is deb:deb_inst|cnt_reg[4]~17 at LCCOMB_X23_Y25_N22
+C1L18 = CARRY((C1_cnt_reg[4] & !C1L15));
+
+
+--C1L20 is deb:deb_inst|cnt_reg[5]~18 at LCCOMB_X23_Y25_N24
+C1L20 = (C1_cnt_reg[5] & (!C1L18)) # (!C1_cnt_reg[5] & ((C1L18) # (GND)));
+
+--C1L21 is deb:deb_inst|cnt_reg[5]~19 at LCCOMB_X23_Y25_N24
+C1L21 = CARRY((!C1L18) # (!C1_cnt_reg[5]));
+
+
+--C1L23 is deb:deb_inst|cnt_reg[6]~20 at LCCOMB_X23_Y25_N26
+C1L23 = (C1_cnt_reg[6] & (C1L21 $ (GND))) # (!C1_cnt_reg[6] & (!C1L21 & VCC));
+
+--C1L24 is deb:deb_inst|cnt_reg[6]~21 at LCCOMB_X23_Y25_N26
+C1L24 = CARRY((C1_cnt_reg[6] & !C1L21));
+
+
+--C1L26 is deb:deb_inst|cnt_reg[7]~22 at LCCOMB_X23_Y25_N28
+C1L26 = C1L24 $ (C1_cnt_reg[7]);
+
+
+--A1L55 is DRAM_DQ[0]~output at IOOBUF_X16_Y29_N2
+A1L55 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L58 is DRAM_DQ[1]~output at IOOBUF_X9_Y29_N16
+A1L58 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L61 is DRAM_DQ[2]~output at IOOBUF_X9_Y29_N30
+A1L61 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L64 is DRAM_DQ[3]~output at IOOBUF_X11_Y29_N30
+A1L64 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L67 is DRAM_DQ[4]~output at IOOBUF_X7_Y29_N23
+A1L67 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L70 is DRAM_DQ[5]~output at IOOBUF_X9_Y29_N23
+A1L70 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L73 is DRAM_DQ[6]~output at IOOBUF_X7_Y29_N2
+A1L73 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L76 is DRAM_DQ[7]~output at IOOBUF_X5_Y29_N23
+A1L76 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L79 is DRAM_DQ[8]~output at IOOBUF_X14_Y29_N23
+A1L79 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L82 is DRAM_DQ[9]~output at IOOBUF_X14_Y29_N2
+A1L82 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L85 is DRAM_DQ[10]~output at IOOBUF_X16_Y29_N30
+A1L85 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L88 is DRAM_DQ[11]~output at IOOBUF_X14_Y29_N9
+A1L88 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L91 is DRAM_DQ[12]~output at IOOBUF_X16_Y29_N23
+A1L91 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L94 is DRAM_DQ[13]~output at IOOBUF_X16_Y29_N16
+A1L94 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L97 is DRAM_DQ[14]~output at IOOBUF_X16_Y29_N9
+A1L97 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L100 is DRAM_DQ[15]~output at IOOBUF_X7_Y29_N30
+A1L100 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L164 is FL_DQ[0]~output at IOOBUF_X0_Y2_N2
+A1L164 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L167 is FL_DQ[1]~output at IOOBUF_X0_Y2_N16
+A1L167 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L170 is FL_DQ[2]~output at IOOBUF_X0_Y2_N23
+A1L170 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L173 is FL_DQ[3]~output at IOOBUF_X0_Y9_N16
+A1L173 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L176 is FL_DQ[4]~output at IOOBUF_X0_Y9_N23
+A1L176 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L179 is FL_DQ[5]~output at IOOBUF_X0_Y4_N2
+A1L179 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L182 is FL_DQ[6]~output at IOOBUF_X0_Y7_N23
+A1L182 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L185 is FL_DQ[7]~output at IOOBUF_X0_Y6_N9
+A1L185 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L188 is FL_DQ[8]~output at IOOBUF_X0_Y3_N2
+A1L188 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L191 is FL_DQ[9]~output at IOOBUF_X0_Y2_N9
+A1L191 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L194 is FL_DQ[10]~output at IOOBUF_X0_Y4_N23
+A1L194 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L197 is FL_DQ[11]~output at IOOBUF_X0_Y9_N9
+A1L197 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L200 is FL_DQ[12]~output at IOOBUF_X0_Y8_N2
+A1L200 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L203 is FL_DQ[13]~output at IOOBUF_X0_Y5_N23
+A1L203 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L206 is FL_DQ[14]~output at IOOBUF_X0_Y7_N16
+A1L206 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L161 is FL_DQ15_AM1~output at IOOBUF_X0_Y6_N2
+A1L161 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L504 is LCD_DATA[0]~output at IOOBUF_X41_Y24_N9
+A1L504 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L507 is LCD_DATA[1]~output at IOOBUF_X41_Y24_N2
+A1L507 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L510 is LCD_DATA[2]~output at IOOBUF_X41_Y26_N23
+A1L510 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L513 is LCD_DATA[3]~output at IOOBUF_X41_Y26_N16
+A1L513 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L516 is LCD_DATA[4]~output at IOOBUF_X41_Y26_N9
+A1L516 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L519 is LCD_DATA[5]~output at IOOBUF_X41_Y26_N2
+A1L519 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L522 is LCD_DATA[6]~output at IOOBUF_X41_Y27_N16
+A1L522 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L525 is LCD_DATA[7]~output at IOOBUF_X41_Y27_N23
+A1L525 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L572 is SD_DAT0~output at IOOBUF_X41_Y2_N23
+A1L572 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L575 is SD_DAT3~output at IOOBUF_X41_Y5_N2
+A1L575 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L569 is SD_CMD~output at IOOBUF_X41_Y3_N2
+A1L569 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L564 is PS2_MSDAT~output at IOOBUF_X41_Y10_N16
+A1L564 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L561 is PS2_MSCLK~output at IOOBUF_X41_Y10_N9
+A1L561 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L230 is GPIO0_D[0]~output at IOOBUF_X28_Y0_N16
+A1L230 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L233 is GPIO0_D[1]~output at IOOBUF_X28_Y0_N23
+A1L233 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L236 is GPIO0_D[2]~output at IOOBUF_X26_Y0_N16
+A1L236 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L239 is GPIO0_D[3]~output at IOOBUF_X26_Y0_N9
+A1L239 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L242 is GPIO0_D[4]~output at IOOBUF_X23_Y0_N16
+A1L242 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L245 is GPIO0_D[5]~output at IOOBUF_X23_Y0_N9
+A1L245 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L248 is GPIO0_D[6]~output at IOOBUF_X23_Y0_N23
+A1L248 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L251 is GPIO0_D[7]~output at IOOBUF_X23_Y0_N30
+A1L251 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L254 is GPIO0_D[8]~output at IOOBUF_X21_Y0_N30
+A1L254 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L257 is GPIO0_D[9]~output at IOOBUF_X19_Y0_N2
+A1L257 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L260 is GPIO0_D[10]~output at IOOBUF_X16_Y0_N23
+A1L260 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L263 is GPIO0_D[11]~output at IOOBUF_X16_Y0_N30
+A1L263 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L266 is GPIO0_D[12]~output at IOOBUF_X9_Y0_N23
+A1L266 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L269 is GPIO0_D[13]~output at IOOBUF_X9_Y0_N30
+A1L269 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L272 is GPIO0_D[14]~output at IOOBUF_X7_Y0_N2
+A1L272 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L275 is GPIO0_D[15]~output at IOOBUF_X7_Y0_N9
+A1L275 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L278 is GPIO0_D[16]~output at IOOBUF_X30_Y0_N2
+A1L278 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L281 is GPIO0_D[17]~output at IOOBUF_X39_Y0_N23
+A1L281 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L284 is GPIO0_D[18]~output at IOOBUF_X26_Y0_N23
+A1L284 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L287 is GPIO0_D[19]~output at IOOBUF_X26_Y0_N30
+A1L287 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L290 is GPIO0_D[20]~output at IOOBUF_X30_Y0_N9
+A1L290 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L293 is GPIO0_D[21]~output at IOOBUF_X23_Y0_N2
+A1L293 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L296 is GPIO0_D[22]~output at IOOBUF_X1_Y0_N16
+A1L296 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L299 is GPIO0_D[23]~output at IOOBUF_X19_Y0_N23
+A1L299 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L302 is GPIO0_D[24]~output at IOOBUF_X19_Y0_N9
+A1L302 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L305 is GPIO0_D[25]~output at IOOBUF_X19_Y0_N16
+A1L305 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L308 is GPIO0_D[26]~output at IOOBUF_X1_Y0_N23
+A1L308 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L311 is GPIO0_D[27]~output at IOOBUF_X11_Y0_N30
+A1L311 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L314 is GPIO0_D[28]~output at IOOBUF_X9_Y0_N16
+A1L314 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L317 is GPIO0_D[29]~output at IOOBUF_X7_Y0_N23
+A1L317 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L320 is GPIO0_D[30]~output at IOOBUF_X3_Y0_N30
+A1L320 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L323 is GPIO0_D[31]~output at IOOBUF_X3_Y0_N23
+A1L323 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L337 is GPIO1_D[0]~output at IOOBUF_X37_Y0_N23
+A1L337 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L340 is GPIO1_D[1]~output at IOOBUF_X37_Y0_N16
+A1L340 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L343 is GPIO1_D[2]~output at IOOBUF_X35_Y0_N23
+A1L343 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L346 is GPIO1_D[3]~output at IOOBUF_X35_Y0_N16
+A1L346 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L349 is GPIO1_D[4]~output at IOOBUF_X32_Y0_N2
+A1L349 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L352 is GPIO1_D[5]~output at IOOBUF_X35_Y0_N30
+A1L352 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L355 is GPIO1_D[6]~output at IOOBUF_X28_Y0_N9
+A1L355 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L358 is GPIO1_D[7]~output at IOOBUF_X28_Y0_N2
+A1L358 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L361 is GPIO1_D[8]~output at IOOBUF_X35_Y0_N2
+A1L361 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L364 is GPIO1_D[9]~output at IOOBUF_X35_Y0_N9
+A1L364 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L367 is GPIO1_D[10]~output at IOOBUF_X39_Y0_N30
+A1L367 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L370 is GPIO1_D[11]~output at IOOBUF_X32_Y0_N9
+A1L370 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L373 is GPIO1_D[12]~output at IOOBUF_X32_Y0_N23
+A1L373 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L376 is GPIO1_D[13]~output at IOOBUF_X32_Y0_N30
+A1L376 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L379 is GPIO1_D[14]~output at IOOBUF_X16_Y0_N2
+A1L379 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L382 is GPIO1_D[15]~output at IOOBUF_X16_Y0_N9
+A1L382 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L385 is GPIO1_D[16]~output at IOOBUF_X11_Y0_N16
+A1L385 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L388 is GPIO1_D[17]~output at IOOBUF_X11_Y0_N9
+A1L388 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L391 is GPIO1_D[18]~output at IOOBUF_X32_Y0_N16
+A1L391 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L394 is GPIO1_D[19]~output at IOOBUF_X39_Y0_N16
+A1L394 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L397 is GPIO1_D[20]~output at IOOBUF_X26_Y0_N2
+A1L397 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L400 is GPIO1_D[21]~output at IOOBUF_X28_Y0_N30
+A1L400 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L403 is GPIO1_D[22]~output at IOOBUF_X3_Y0_N2
+A1L403 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L406 is GPIO1_D[23]~output at IOOBUF_X5_Y0_N30
+A1L406 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L409 is GPIO1_D[24]~output at IOOBUF_X14_Y0_N2
+A1L409 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L412 is GPIO1_D[25]~output at IOOBUF_X14_Y0_N9
+A1L412 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L415 is GPIO1_D[26]~output at IOOBUF_X9_Y0_N2
+A1L415 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L418 is GPIO1_D[27]~output at IOOBUF_X1_Y0_N9
+A1L418 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L421 is GPIO1_D[28]~output at IOOBUF_X9_Y0_N9
+A1L421 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L424 is GPIO1_D[29]~output at IOOBUF_X3_Y0_N16
+A1L424 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L427 is GPIO1_D[30]~output at IOOBUF_X1_Y0_N2
+A1L427 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L430 is GPIO1_D[31]~output at IOOBUF_X7_Y0_N16
+A1L430 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L558 is PS2_KBDAT~output at IOOBUF_X41_Y12_N23
+A1L558 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L555 is PS2_KBCLK~output at IOOBUF_X41_Y11_N2
+A1L555 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--E1_error_reg is ps2:ps2_inst|error_reg at FF_X24_Y28_N17
+--register power-up is low
+
+E1_error_reg = DFFEAS(E1L41, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1_received_data_reg[0] is ps2:ps2_inst|received_data_reg[0] at FF_X26_Y28_N17
+--register power-up is low
+
+E1_received_data_reg[0] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[0],  ,  , VCC);
+
+
+--E1_received_data_reg[1] is ps2:ps2_inst|received_data_reg[1] at FF_X29_Y28_N23
+--register power-up is low
+
+E1_received_data_reg[1] = DFFEAS(E1L82, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1_received_data_reg[2] is ps2:ps2_inst|received_data_reg[2] at FF_X30_Y28_N9
+--register power-up is low
+
+E1_received_data_reg[2] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[2],  ,  , VCC);
+
+
+--E1_received_data_reg[3] is ps2:ps2_inst|received_data_reg[3] at FF_X26_Y28_N7
+--register power-up is low
+
+E1_received_data_reg[3] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[3],  ,  , VCC);
+
+
+--D1L13 is hex:hex_controller|WideOr6~0 at LCCOMB_X26_Y28_N16
+D1L13 = (E1_received_data_reg[2] & (!E1_received_data_reg[1] & (E1_received_data_reg[0] $ (!E1_received_data_reg[3])))) # (!E1_received_data_reg[2] & (E1_received_data_reg[0] & (E1_received_data_reg[1] $ (!E1_received_data_reg[3]))));
+
+
+--D1L14 is hex:hex_controller|WideOr6~1 at LCCOMB_X22_Y28_N0
+D1L14 = (E1_error_reg) # (D1L13);
+
+
+--D1L11 is hex:hex_controller|WideOr5~0 at LCCOMB_X24_Y28_N10
+D1L11 = (E1_received_data_reg[3] & ((E1_received_data_reg[0] & (E1_received_data_reg[1])) # (!E1_received_data_reg[0] & ((E1_received_data_reg[2]))))) # (!E1_received_data_reg[3] & (E1_received_data_reg[2] & (E1_received_data_reg[1] $ (E1_received_data_reg[0]))));
+
+
+--D1L12 is hex:hex_controller|WideOr5~1 at LCCOMB_X24_Y28_N4
+D1L12 = (D1L11) # (E1_error_reg);
+
+
+--D1L9 is hex:hex_controller|WideOr4~0 at LCCOMB_X24_Y28_N30
+D1L9 = (E1_received_data_reg[3] & (E1_received_data_reg[2] & ((E1_received_data_reg[1]) # (!E1_received_data_reg[0])))) # (!E1_received_data_reg[3] & (E1_received_data_reg[1] & (!E1_received_data_reg[0] & !E1_received_data_reg[2])));
+
+
+--D1L10 is hex:hex_controller|WideOr4~1 at LCCOMB_X24_Y28_N8
+D1L10 = (D1L9) # (E1_error_reg);
+
+
+--D1L7 is hex:hex_controller|WideOr3~0 at LCCOMB_X24_Y28_N26
+D1L7 = (E1_received_data_reg[1] & ((E1_received_data_reg[0] & ((E1_received_data_reg[2]))) # (!E1_received_data_reg[0] & (E1_received_data_reg[3] & !E1_received_data_reg[2])))) # (!E1_received_data_reg[1] & (!E1_received_data_reg[3] & (E1_received_data_reg[0] $ (E1_received_data_reg[2]))));
+
+
+--D1L8 is hex:hex_controller|WideOr3~1 at LCCOMB_X24_Y28_N0
+D1L8 = (D1L7) # (E1_error_reg);
+
+
+--D1L5 is hex:hex_controller|WideOr2~0 at LCCOMB_X24_Y28_N18
+D1L5 = (E1_received_data_reg[1] & (!E1_received_data_reg[3] & (E1_received_data_reg[0]))) # (!E1_received_data_reg[1] & ((E1_received_data_reg[2] & (!E1_received_data_reg[3])) # (!E1_received_data_reg[2] & ((E1_received_data_reg[0])))));
+
+
+--D1L6 is hex:hex_controller|WideOr2~1 at LCCOMB_X24_Y28_N24
+D1L6 = (D1L5 & !E1_error_reg);
+
+
+--D1L3 is hex:hex_controller|WideOr1~0 at LCCOMB_X24_Y28_N22
+D1L3 = (E1_received_data_reg[1] & (!E1_received_data_reg[3] & ((E1_received_data_reg[0]) # (!E1_received_data_reg[2])))) # (!E1_received_data_reg[1] & (E1_received_data_reg[0] & (E1_received_data_reg[3] $ (!E1_received_data_reg[2]))));
+
+
+--D1L4 is hex:hex_controller|WideOr1~1 at LCCOMB_X24_Y28_N12
+D1L4 = (D1L3) # (E1_error_reg);
+
+
+--D1L1 is hex:hex_controller|WideOr0~0 at LCCOMB_X24_Y28_N14
+D1L1 = (E1_received_data_reg[0] & ((E1_received_data_reg[3]) # (E1_received_data_reg[1] $ (E1_received_data_reg[2])))) # (!E1_received_data_reg[0] & ((E1_received_data_reg[1]) # (E1_received_data_reg[3] $ (E1_received_data_reg[2]))));
+
+
+--D1L2 is hex:hex_controller|WideOr0~1 at LCCOMB_X24_Y28_N28
+D1L2 = (D1L1) # (E1_error_reg);
+
+
+--E1_received_data_reg[4] is ps2:ps2_inst|received_data_reg[4] at FF_X26_Y28_N5
+--register power-up is low
+
+E1_received_data_reg[4] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[4],  ,  , VCC);
+
+
+--E1_received_data_reg[5] is ps2:ps2_inst|received_data_reg[5] at FF_X26_Y28_N19
+--register power-up is low
+
+E1_received_data_reg[5] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[5],  ,  , VCC);
+
+
+--E1_received_data_reg[6] is ps2:ps2_inst|received_data_reg[6] at FF_X26_Y28_N1
+--register power-up is low
+
+E1_received_data_reg[6] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[6],  ,  , VCC);
+
+
+--E1_received_data_reg[7] is ps2:ps2_inst|received_data_reg[7] at FF_X26_Y28_N27
+--register power-up is low
+
+E1_received_data_reg[7] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[7],  ,  , VCC);
+
+
+--D1L27 is hex:hex_controller|WideOr13~0 at LCCOMB_X23_Y28_N4
+D1L27 = (E1_received_data_reg[6] & (!E1_received_data_reg[5] & (E1_received_data_reg[4] $ (!E1_received_data_reg[7])))) # (!E1_received_data_reg[6] & (E1_received_data_reg[4] & (E1_received_data_reg[5] $ (!E1_received_data_reg[7]))));
+
+
+--D1L28 is hex:hex_controller|WideOr13~1 at LCCOMB_X22_Y28_N10
+D1L28 = (D1L27) # (E1_error_reg);
+
+
+--D1L25 is hex:hex_controller|WideOr12~0 at LCCOMB_X23_Y28_N6
+D1L25 = (E1_received_data_reg[5] & ((E1_received_data_reg[4] & ((E1_received_data_reg[7]))) # (!E1_received_data_reg[4] & (E1_received_data_reg[6])))) # (!E1_received_data_reg[5] & (E1_received_data_reg[6] & (E1_received_data_reg[4] $ (E1_received_data_reg[7]))));
+
+
+--D1L26 is hex:hex_controller|WideOr12~1 at LCCOMB_X22_Y28_N16
+D1L26 = (D1L25) # (E1_error_reg);
+
+
+--D1L23 is hex:hex_controller|WideOr11~0 at LCCOMB_X23_Y28_N24
+D1L23 = (E1_received_data_reg[6] & (E1_received_data_reg[7] & ((E1_received_data_reg[5]) # (!E1_received_data_reg[4])))) # (!E1_received_data_reg[6] & (E1_received_data_reg[5] & (!E1_received_data_reg[4] & !E1_received_data_reg[7])));
+
+
+--D1L24 is hex:hex_controller|WideOr11~1 at LCCOMB_X24_Y28_N2
+D1L24 = (D1L23) # (E1_error_reg);
+
+
+--D1L21 is hex:hex_controller|WideOr10~0 at LCCOMB_X26_Y28_N26
+D1L21 = (E1_received_data_reg[5] & ((E1_received_data_reg[4] & (E1_received_data_reg[6])) # (!E1_received_data_reg[4] & (!E1_received_data_reg[6] & E1_received_data_reg[7])))) # (!E1_received_data_reg[5] & (!E1_received_data_reg[7] & (E1_received_data_reg[4] $ (E1_received_data_reg[6]))));
+
+
+--D1L22 is hex:hex_controller|WideOr10~1 at LCCOMB_X26_Y28_N24
+D1L22 = (D1L21) # (E1_error_reg);
+
+
+--D1L19 is hex:hex_controller|WideOr9~0 at LCCOMB_X23_Y28_N22
+D1L19 = (E1_received_data_reg[5] & (((E1_received_data_reg[4] & !E1_received_data_reg[7])))) # (!E1_received_data_reg[5] & ((E1_received_data_reg[6] & ((!E1_received_data_reg[7]))) # (!E1_received_data_reg[6] & (E1_received_data_reg[4]))));
+
+
+--D1L20 is hex:hex_controller|WideOr9~1 at LCCOMB_X23_Y28_N0
+D1L20 = (D1L19 & !E1_error_reg);
+
+
+--D1L17 is hex:hex_controller|WideOr8~0 at LCCOMB_X23_Y28_N2
+D1L17 = (E1_received_data_reg[5] & (!E1_received_data_reg[7] & ((E1_received_data_reg[4]) # (!E1_received_data_reg[6])))) # (!E1_received_data_reg[5] & (E1_received_data_reg[4] & (E1_received_data_reg[6] $ (!E1_received_data_reg[7]))));
+
+
+--D1L18 is hex:hex_controller|WideOr8~1 at LCCOMB_X26_Y28_N0
+D1L18 = (E1_error_reg) # (D1L17);
+
+
+--D1L15 is hex:hex_controller|WideOr7~0 at LCCOMB_X23_Y28_N12
+D1L15 = (E1_received_data_reg[4] & ((E1_received_data_reg[7]) # (E1_received_data_reg[5] $ (E1_received_data_reg[6])))) # (!E1_received_data_reg[4] & ((E1_received_data_reg[5]) # (E1_received_data_reg[6] $ (E1_received_data_reg[7]))));
+
+
+--D1L16 is hex:hex_controller|WideOr7~1 at LCCOMB_X23_Y28_N14
+D1L16 = (D1L15) # (E1_error_reg);
+
+
+--E1_received_data_reg[8] is ps2:ps2_inst|received_data_reg[8] at FF_X26_Y28_N23
+--register power-up is low
+
+E1_received_data_reg[8] = DFFEAS(E1L90, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1_received_data_reg[9] is ps2:ps2_inst|received_data_reg[9] at FF_X26_Y28_N13
+--register power-up is low
+
+E1_received_data_reg[9] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[9],  ,  , VCC);
+
+
+--E1_received_data_reg[10] is ps2:ps2_inst|received_data_reg[10] at FF_X30_Y28_N11
+--register power-up is low
+
+E1_received_data_reg[10] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[10],  ,  , VCC);
+
+
+--E1_received_data_reg[11] is ps2:ps2_inst|received_data_reg[11] at FF_X26_Y28_N31
+--register power-up is low
+
+E1_received_data_reg[11] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[11],  ,  , VCC);
+
+
+--D1L41 is hex:hex_controller|WideOr20~0 at LCCOMB_X26_Y28_N8
+D1L41 = (E1_received_data_reg[10] & (!E1_received_data_reg[9] & (E1_received_data_reg[11] $ (!E1_received_data_reg[8])))) # (!E1_received_data_reg[10] & (E1_received_data_reg[8] & (E1_received_data_reg[9] $ (!E1_received_data_reg[11]))));
+
+
+--D1L42 is hex:hex_controller|WideOr20~1 at LCCOMB_X26_Y28_N10
+D1L42 = (D1L41 & !E1_error_reg);
+
+
+--D1L39 is hex:hex_controller|WideOr19~0 at LCCOMB_X26_Y28_N20
+D1L39 = (E1_received_data_reg[9] & ((E1_received_data_reg[8] & ((E1_received_data_reg[11]))) # (!E1_received_data_reg[8] & (E1_received_data_reg[10])))) # (!E1_received_data_reg[9] & (E1_received_data_reg[10] & (E1_received_data_reg[11] $ (E1_received_data_reg[8]))));
+
+
+--D1L40 is hex:hex_controller|WideOr19~1 at LCCOMB_X26_Y28_N4
+D1L40 = (E1_error_reg) # (D1L39);
+
+
+--D1L37 is hex:hex_controller|WideOr18~0 at LCCOMB_X30_Y28_N10
+D1L37 = (E1_received_data_reg[10] & (E1_received_data_reg[11] & ((E1_received_data_reg[9]) # (!E1_received_data_reg[8])))) # (!E1_received_data_reg[10] & (E1_received_data_reg[9] & (!E1_received_data_reg[8] & !E1_received_data_reg[11])));
+
+
+--D1L38 is hex:hex_controller|WideOr18~1 at LCCOMB_X26_Y28_N18
+D1L38 = (E1_error_reg) # (D1L37);
+
+
+--D1L35 is hex:hex_controller|WideOr17~0 at LCCOMB_X26_Y28_N30
+D1L35 = (E1_received_data_reg[9] & ((E1_received_data_reg[8] & ((E1_received_data_reg[10]))) # (!E1_received_data_reg[8] & (E1_received_data_reg[11] & !E1_received_data_reg[10])))) # (!E1_received_data_reg[9] & (!E1_received_data_reg[11] & (E1_received_data_reg[8] $ (E1_received_data_reg[10]))));
+
+
+--D1L36 is hex:hex_controller|WideOr17~1 at LCCOMB_X30_Y28_N12
+D1L36 = (!E1_error_reg & D1L35);
+
+
+--D1L33 is hex:hex_controller|WideOr16~0 at LCCOMB_X26_Y28_N14
+D1L33 = (E1_received_data_reg[9] & (((!E1_received_data_reg[11] & E1_received_data_reg[8])))) # (!E1_received_data_reg[9] & ((E1_received_data_reg[10] & (!E1_received_data_reg[11])) # (!E1_received_data_reg[10] & ((E1_received_data_reg[8])))));
+
+
+--D1L34 is hex:hex_controller|WideOr16~1 at LCCOMB_X30_Y28_N8
+D1L34 = (!E1_error_reg & D1L33);
+
+
+--D1L31 is hex:hex_controller|WideOr15~0 at LCCOMB_X26_Y28_N12
+D1L31 = (E1_received_data_reg[8] & (E1_received_data_reg[11] $ (((E1_received_data_reg[9]) # (!E1_received_data_reg[10]))))) # (!E1_received_data_reg[8] & (!E1_received_data_reg[11] & (E1_received_data_reg[9] & !E1_received_data_reg[10])));
+
+
+--D1L32 is hex:hex_controller|WideOr15~1 at LCCOMB_X26_Y28_N6
+D1L32 = (!E1_error_reg & D1L31);
+
+
+--D1L29 is hex:hex_controller|WideOr14~0 at LCCOMB_X26_Y28_N28
+D1L29 = (E1_received_data_reg[8] & ((E1_received_data_reg[11]) # (E1_received_data_reg[10] $ (E1_received_data_reg[9])))) # (!E1_received_data_reg[8] & ((E1_received_data_reg[9]) # (E1_received_data_reg[10] $ (E1_received_data_reg[11]))));
+
+
+--D1L30 is hex:hex_controller|WideOr14~1 at LCCOMB_X33_Y28_N12
+D1L30 = (E1_error_reg) # (D1L29);
+
+
+--E1_received_data_reg[12] is ps2:ps2_inst|received_data_reg[12] at FF_X30_Y28_N31
+--register power-up is low
+
+E1_received_data_reg[12] = DFFEAS(E1L95, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1_received_data_reg[13] is ps2:ps2_inst|received_data_reg[13] at FF_X30_Y28_N13
+--register power-up is low
+
+E1_received_data_reg[13] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[13],  ,  , VCC);
+
+
+--E1_received_data_reg[14] is ps2:ps2_inst|received_data_reg[14] at FF_X30_Y28_N21
+--register power-up is low
+
+E1_received_data_reg[14] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[14],  ,  , VCC);
+
+
+--E1_received_data_reg[15] is ps2:ps2_inst|received_data_reg[15] at FF_X30_Y28_N15
+--register power-up is low
+
+E1_received_data_reg[15] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_received_data_next[15],  ,  , VCC);
+
+
+--D1L55 is hex:hex_controller|WideOr27~0 at LCCOMB_X30_Y28_N4
+D1L55 = (E1_received_data_reg[15] & (E1_received_data_reg[12] & (E1_received_data_reg[13] $ (E1_received_data_reg[14])))) # (!E1_received_data_reg[15] & (!E1_received_data_reg[13] & (E1_received_data_reg[12] $ (E1_received_data_reg[14]))));
+
+
+--D1L56 is hex:hex_controller|WideOr27~1 at LCCOMB_X30_Y28_N6
+D1L56 = (E1_error_reg) # (D1L55);
+
+
+--D1L53 is hex:hex_controller|WideOr26~0 at LCCOMB_X30_Y28_N16
+D1L53 = (E1_received_data_reg[13] & ((E1_received_data_reg[12] & (E1_received_data_reg[15])) # (!E1_received_data_reg[12] & ((E1_received_data_reg[14]))))) # (!E1_received_data_reg[13] & (E1_received_data_reg[14] & (E1_received_data_reg[15] $ (E1_received_data_reg[12]))));
+
+
+--D1L54 is hex:hex_controller|WideOr26~1 at LCCOMB_X33_Y28_N26
+D1L54 = (E1_error_reg) # (D1L53);
+
+
+--D1L51 is hex:hex_controller|WideOr25~0 at LCCOMB_X30_Y28_N20
+D1L51 = (E1_received_data_reg[15] & (E1_received_data_reg[14] & ((E1_received_data_reg[13]) # (!E1_received_data_reg[12])))) # (!E1_received_data_reg[15] & (!E1_received_data_reg[12] & (!E1_received_data_reg[14] & E1_received_data_reg[13])));
+
+
+--D1L52 is hex:hex_controller|WideOr25~1 at LCCOMB_X33_Y28_N0
+D1L52 = (E1_error_reg) # (D1L51);
+
+
+--D1L49 is hex:hex_controller|WideOr24~0 at LCCOMB_X30_Y28_N14
+D1L49 = (E1_received_data_reg[13] & ((E1_received_data_reg[12] & (E1_received_data_reg[14])) # (!E1_received_data_reg[12] & (!E1_received_data_reg[14] & E1_received_data_reg[15])))) # (!E1_received_data_reg[13] & (!E1_received_data_reg[15] & (E1_received_data_reg[12] $ (E1_received_data_reg[14]))));
+
+
+--D1L50 is hex:hex_controller|WideOr24~1 at LCCOMB_X30_Y28_N22
+D1L50 = (D1L49) # (E1_error_reg);
+
+
+--D1L47 is hex:hex_controller|WideOr23~0 at LCCOMB_X30_Y28_N24
+D1L47 = (E1_received_data_reg[13] & (!E1_received_data_reg[15] & (E1_received_data_reg[12]))) # (!E1_received_data_reg[13] & ((E1_received_data_reg[14] & (!E1_received_data_reg[15])) # (!E1_received_data_reg[14] & ((E1_received_data_reg[12])))));
+
+
+--D1L48 is hex:hex_controller|WideOr23~1 at LCCOMB_X30_Y28_N26
+D1L48 = (E1_error_reg) # (D1L47);
+
+
+--D1L45 is hex:hex_controller|WideOr22~0 at LCCOMB_X30_Y28_N0
+D1L45 = (E1_received_data_reg[13] & (!E1_received_data_reg[15] & ((E1_received_data_reg[12]) # (!E1_received_data_reg[14])))) # (!E1_received_data_reg[13] & (E1_received_data_reg[12] & (E1_received_data_reg[15] $ (!E1_received_data_reg[14]))));
+
+
+--D1L46 is hex:hex_controller|WideOr22~1 at LCCOMB_X30_Y28_N18
+D1L46 = (E1_error_reg) # (D1L45);
+
+
+--D1L43 is hex:hex_controller|WideOr21~0 at LCCOMB_X30_Y28_N28
+D1L43 = (E1_received_data_reg[12] & ((E1_received_data_reg[15]) # (E1_received_data_reg[13] $ (E1_received_data_reg[14])))) # (!E1_received_data_reg[12] & ((E1_received_data_reg[13]) # (E1_received_data_reg[15] $ (E1_received_data_reg[14]))));
+
+
+--D1L44 is hex:hex_controller|WideOr21~1 at LCCOMB_X33_Y28_N6
+D1L44 = (E1_error_reg) # (!D1L43);
+
+
+--E1_error_next is ps2:ps2_inst|error_next at FF_X24_Y28_N21
+--register power-up is low
+
+E1_error_next = DFFEAS(E1L20, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1_state_reg.CHECK is ps2:ps2_inst|state_reg.CHECK at FF_X28_Y28_N19
+--register power-up is low
+
+E1_state_reg.CHECK = DFFEAS(E1L105, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1_parity_reg is ps2:ps2_inst|parity_reg at FF_X28_Y28_N9
+--register power-up is low
+
+E1_parity_reg = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_parity_next,  ,  , VCC);
+
+
+--E1_state_reg.STOP is ps2:ps2_inst|state_reg.STOP at FF_X28_Y28_N29
+--register power-up is low
+
+E1_state_reg.STOP = DFFEAS(E1L109, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1L18 is ps2:ps2_inst|Selector0~0 at LCCOMB_X28_Y28_N8
+E1L18 = (A1L557 & (E1_state_reg.CHECK & (E1_parity_reg))) # (!A1L557 & ((E1_state_reg.STOP) # ((E1_state_reg.CHECK & !E1_parity_reg))));
+
+
+--E1_state_reg.RECEIVING is ps2:ps2_inst|state_reg.RECEIVING at FF_X28_Y28_N13
+--register power-up is low
+
+E1_state_reg.RECEIVING = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_state_next.RECEIVING,  ,  , VCC);
+
+
+--E1_state_reg.IDLE is ps2:ps2_inst|state_reg.IDLE at FF_X28_Y28_N21
+--register power-up is low
+
+E1_state_reg.IDLE = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_state_next.IDLE,  ,  , VCC);
+
+
+--E1L19 is ps2:ps2_inst|Selector0~1 at LCCOMB_X28_Y28_N20
+E1L19 = (E1_state_reg.STOP) # ((E1_state_reg.RECEIVING) # ((A1L557 & !E1_state_reg.IDLE)));
+
+
+--E1L20 is ps2:ps2_inst|Selector0~2 at LCCOMB_X24_Y28_N20
+E1L20 = (E1L18) # ((E1_error_reg & E1L19));
+
+
+--C1_out_reg is deb:deb_inst|out_reg at FF_X23_Y25_N9
+--register power-up is low
+
+C1_out_reg = DFFEAS(C1L37, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--E1_cnt_reg[0] is ps2:ps2_inst|cnt_reg[0] at FF_X28_Y28_N11
+--register power-up is low
+
+E1_cnt_reg[0] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_cnt_next[0],  ,  , VCC);
+
+
+--E1_cnt_reg[1] is ps2:ps2_inst|cnt_reg[1] at FF_X28_Y28_N25
+--register power-up is low
+
+E1_cnt_reg[1] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_cnt_next[1],  ,  , VCC);
+
+
+--E1_cnt_reg[2] is ps2:ps2_inst|cnt_reg[2] at FF_X28_Y28_N15
+--register power-up is low
+
+E1_cnt_reg[2] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_cnt_next[2],  ,  , VCC);
+
+
+--E1_cnt_reg[3] is ps2:ps2_inst|cnt_reg[3] at FF_X28_Y28_N7
+--register power-up is low
+
+E1_cnt_reg[3] = DFFEAS( , GLOBAL(A1L12), A1L598,  ,  , E1_cnt_next[3],  ,  , VCC);
+
+
+--E1L2 is ps2:ps2_inst|Decoder0~0 at LCCOMB_X27_Y28_N26
+E1L2 = (!E1_cnt_reg[1] & (!E1_cnt_reg[0] & (!E1_cnt_reg[2] & !E1_cnt_reg[3])));
+
+
+--E1L63 is ps2:ps2_inst|received_data_next~0 at LCCOMB_X27_Y28_N8
+E1L63 = (E1L2 & (A1L557)) # (!E1L2 & ((E1_received_data_reg[0])));
+
+
+--E1L3 is ps2:ps2_inst|Decoder0~1 at LCCOMB_X28_Y28_N6
+E1L3 = (E1_cnt_reg[0] & (!E1_cnt_reg[2] & (!E1_cnt_reg[3] & !E1_cnt_reg[1])));
+
+
+--E1L64 is ps2:ps2_inst|received_data_next~1 at LCCOMB_X29_Y28_N18
+E1L64 = (E1L3 & (A1L557)) # (!E1L3 & ((E1_received_data_reg[1])));
+
+
+--E1L4 is ps2:ps2_inst|Decoder0~2 at LCCOMB_X28_Y28_N14
+E1L4 = (!E1_cnt_reg[3] & (!E1_cnt_reg[0] & (!E1_cnt_reg[2] & E1_cnt_reg[1])));
+
+
+--E1L65 is ps2:ps2_inst|received_data_next~2 at LCCOMB_X29_Y28_N26
+E1L65 = (E1L4 & (A1L557)) # (!E1L4 & ((E1_received_data_reg[2])));
+
+
+--E1L5 is ps2:ps2_inst|Decoder0~3 at LCCOMB_X27_Y28_N28
+E1L5 = (!E1_cnt_reg[3] & (!E1_cnt_reg[2] & (E1_cnt_reg[1] & E1_cnt_reg[0])));
+
+
+--E1L66 is ps2:ps2_inst|received_data_next~3 at LCCOMB_X27_Y28_N14
+E1L66 = (E1L5 & (A1L557)) # (!E1L5 & ((E1_received_data_reg[3])));
+
+
+--E1L6 is ps2:ps2_inst|Decoder0~4 at LCCOMB_X27_Y28_N18
+E1L6 = (!E1_cnt_reg[1] & (!E1_cnt_reg[0] & (E1_cnt_reg[2] & !E1_cnt_reg[3])));
+
+
+--E1L67 is ps2:ps2_inst|received_data_next~4 at LCCOMB_X27_Y28_N12
+E1L67 = (E1L6 & (A1L557)) # (!E1L6 & ((E1_received_data_reg[4])));
+
+
+--E1L7 is ps2:ps2_inst|Decoder0~5 at LCCOMB_X27_Y28_N24
+E1L7 = (!E1_cnt_reg[1] & (E1_cnt_reg[0] & (E1_cnt_reg[2] & !E1_cnt_reg[3])));
+
+
+--E1L68 is ps2:ps2_inst|received_data_next~5 at LCCOMB_X27_Y28_N30
+E1L68 = (E1L7 & (A1L557)) # (!E1L7 & ((E1_received_data_reg[5])));
+
+
+--E1L8 is ps2:ps2_inst|Decoder0~6 at LCCOMB_X27_Y28_N2
+E1L8 = (E1_cnt_reg[1] & (E1_cnt_reg[2] & (!E1_cnt_reg[0] & !E1_cnt_reg[3])));
+
+
+--E1L69 is ps2:ps2_inst|received_data_next~6 at LCCOMB_X27_Y28_N0
+E1L69 = (E1L8 & (A1L557)) # (!E1L8 & ((E1_received_data_reg[6])));
+
+
+--E1L9 is ps2:ps2_inst|Decoder0~7 at LCCOMB_X27_Y28_N16
+E1L9 = (E1_cnt_reg[1] & (E1_cnt_reg[0] & (E1_cnt_reg[2] & !E1_cnt_reg[3])));
+
+
+--E1L70 is ps2:ps2_inst|received_data_next~7 at LCCOMB_X27_Y28_N10
+E1L70 = (E1L9 & (A1L557)) # (!E1L9 & ((E1_received_data_reg[7])));
+
+
+--E1L10 is ps2:ps2_inst|Decoder0~8 at LCCOMB_X27_Y28_N6
+E1L10 = (!E1_cnt_reg[1] & (!E1_cnt_reg[0] & (!E1_cnt_reg[2] & E1_cnt_reg[3])));
+
+
+--E1L71 is ps2:ps2_inst|received_data_next~8 at LCCOMB_X27_Y28_N4
+E1L71 = (E1L10 & (A1L557)) # (!E1L10 & ((E1_received_data_reg[8])));
+
+
+--E1L11 is ps2:ps2_inst|Decoder0~9 at LCCOMB_X28_Y28_N10
+E1L11 = (E1_cnt_reg[3] & (!E1_cnt_reg[1] & (E1_cnt_reg[0] & !E1_cnt_reg[2])));
+
+
+--E1L72 is ps2:ps2_inst|received_data_next~9 at LCCOMB_X27_Y28_N22
+E1L72 = (E1L11 & (A1L557)) # (!E1L11 & ((E1_received_data_reg[9])));
+
+
+--E1L12 is ps2:ps2_inst|Decoder0~10 at LCCOMB_X29_Y28_N24
+E1L12 = (!E1_cnt_reg[0] & (E1_cnt_reg[1] & (E1_cnt_reg[3] & !E1_cnt_reg[2])));
+
+
+--E1L73 is ps2:ps2_inst|received_data_next~10 at LCCOMB_X29_Y28_N0
+E1L73 = (E1L12 & (A1L557)) # (!E1L12 & ((E1_received_data_reg[10])));
+
+
+--E1L13 is ps2:ps2_inst|Decoder0~11 at LCCOMB_X28_Y28_N24
+E1L13 = (E1_cnt_reg[0] & (!E1_cnt_reg[2] & (E1_cnt_reg[1] & E1_cnt_reg[3])));
+
+
+--E1L74 is ps2:ps2_inst|received_data_next~11 at LCCOMB_X27_Y28_N20
+E1L74 = (E1L13 & (A1L557)) # (!E1L13 & ((E1_received_data_reg[11])));
+
+
+--E1L14 is ps2:ps2_inst|Decoder0~12 at LCCOMB_X29_Y28_N10
+E1L14 = (!E1_cnt_reg[0] & (!E1_cnt_reg[1] & (E1_cnt_reg[2] & E1_cnt_reg[3])));
+
+
+--E1L75 is ps2:ps2_inst|received_data_next~12 at LCCOMB_X29_Y28_N14
+E1L75 = (E1L14 & (A1L557)) # (!E1L14 & ((E1_received_data_reg[12])));
+
+
+--E1L15 is ps2:ps2_inst|Decoder0~13 at LCCOMB_X29_Y28_N2
+E1L15 = (E1_cnt_reg[0] & (!E1_cnt_reg[1] & (E1_cnt_reg[2] & E1_cnt_reg[3])));
+
+
+--E1L76 is ps2:ps2_inst|received_data_next~13 at LCCOMB_X29_Y28_N6
+E1L76 = (E1L15 & (A1L557)) # (!E1L15 & ((E1_received_data_reg[13])));
+
+
+--E1L16 is ps2:ps2_inst|Decoder0~14 at LCCOMB_X29_Y28_N28
+E1L16 = (!E1_cnt_reg[0] & (E1_cnt_reg[1] & (E1_cnt_reg[3] & E1_cnt_reg[2])));
+
+
+--E1L77 is ps2:ps2_inst|received_data_next~14 at LCCOMB_X29_Y28_N4
+E1L77 = (E1L16 & (A1L557)) # (!E1L16 & ((E1_received_data_reg[14])));
+
+
+--E1L17 is ps2:ps2_inst|Decoder0~15 at LCCOMB_X29_Y28_N12
+E1L17 = (E1_cnt_reg[0] & (E1_cnt_reg[1] & (E1_cnt_reg[2] & E1_cnt_reg[3])));
+
+
+--E1L78 is ps2:ps2_inst|received_data_next~15 at LCCOMB_X29_Y28_N16
+E1L78 = (E1L17 & (A1L557)) # (!E1L17 & ((E1_received_data_reg[15])));
+
+
+--E1_state_next.CHECK is ps2:ps2_inst|state_next.CHECK at FF_X28_Y28_N3
+--register power-up is low
+
+E1_state_next.CHECK = DFFEAS(E1L25, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1_state_next.STOP is ps2:ps2_inst|state_next.STOP at FF_X28_Y28_N17
+--register power-up is low
+
+E1_state_next.STOP = DFFEAS(E1L103, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1_state_next.RECEIVING is ps2:ps2_inst|state_next.RECEIVING at FF_X28_Y28_N31
+--register power-up is low
+
+E1_state_next.RECEIVING = DFFEAS(E1L24, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1_state_next.IDLE is ps2:ps2_inst|state_next.IDLE at FF_X28_Y28_N5
+--register power-up is low
+
+E1_state_next.IDLE = DFFEAS(E1L22, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--C1_ff_reg[1] is deb:deb_inst|ff_reg[1] at FF_X23_Y25_N7
+--register power-up is low
+
+C1_ff_reg[1] = DFFEAS(C1L32, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--C1L1 is deb:deb_inst|Equal0~0 at LCCOMB_X23_Y25_N12
+C1L1 = (C1_cnt_reg[2] & (!C1_cnt_reg[3] & (C1_cnt_reg[0] & C1_cnt_reg[1])));
+
+
+--C1L2 is deb:deb_inst|Equal0~1 at LCCOMB_X23_Y25_N30
+C1L2 = (!C1_cnt_reg[6] & (!C1_cnt_reg[7] & (!C1_cnt_reg[4] & !C1_cnt_reg[5])));
+
+
+--C1L35 is deb:deb_inst|out_reg~0 at LCCOMB_X23_Y25_N4
+C1L35 = (C1L2 & ((C1L1 & (C1_ff_reg[1])) # (!C1L1 & ((C1_out_reg))))) # (!C1L2 & (((C1_out_reg))));
+
+
+--E1_cnt_next[0] is ps2:ps2_inst|cnt_next[0] at FF_X28_Y28_N23
+--register power-up is low
+
+E1_cnt_next[0] = DFFEAS(E1L31, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1_cnt_next[1] is ps2:ps2_inst|cnt_next[1] at FF_X28_Y28_N27
+--register power-up is low
+
+E1_cnt_next[1] = DFFEAS(E1L32, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1_cnt_next[2] is ps2:ps2_inst|cnt_next[2] at FF_X26_Y28_N3
+--register power-up is low
+
+E1_cnt_next[2] = DFFEAS(E1L33, !GLOBAL(C1L36),  ,  ,  ,  ,  ,  ,  );
+
+
+--E1L25 is ps2:ps2_inst|Selector3~0 at LCCOMB_X28_Y28_N2
+E1L25 = (E1_state_reg.RECEIVING & (E1_cnt_reg[2] & (E1_cnt_reg[0] & E1_cnt_reg[1])));
+
+
+--E1L43 is ps2:ps2_inst|parity_next~0 at LCCOMB_X29_Y28_N20
+E1L43 = (!E1_cnt_reg[1] & (!E1_cnt_reg[2] & !E1_cnt_reg[0]));
+
+
+--E1L44 is ps2:ps2_inst|parity_next~1 at LCCOMB_X29_Y28_N8
+E1L44 = A1L557 $ (((E1_parity_reg & !E1L43)));
+
+
+--E1L23 is ps2:ps2_inst|Selector2~0 at LCCOMB_X28_Y28_N0
+E1L23 = (E1_state_reg.RECEIVING & (((!E1_cnt_reg[1]) # (!E1_cnt_reg[2])) # (!E1_cnt_reg[0])));
+
+
+--E1L24 is ps2:ps2_inst|Selector2~1 at LCCOMB_X28_Y28_N30
+E1L24 = (E1L23) # ((!A1L557 & !E1_state_reg.IDLE));
+
+
+--E1L21 is ps2:ps2_inst|Selector1~0 at LCCOMB_X28_Y28_N12
+E1L21 = (E1L23) # ((A1L557 & !E1_state_reg.RECEIVING));
+
+
+--E1L22 is ps2:ps2_inst|Selector1~1 at LCCOMB_X28_Y28_N4
+E1L22 = (!E1_state_reg.STOP & ((E1_state_reg.CHECK) # ((E1_state_reg.IDLE) # (!E1L21))));
+
+
+--C1_ff_reg[0] is deb:deb_inst|ff_reg[0] at FF_X23_Y25_N11
+--register power-up is low
+
+C1_ff_reg[0] = DFFEAS(C1L30, GLOBAL(A1L12), A1L598,  ,  ,  ,  ,  ,  );
+
+
+--C1_in_changed is deb:deb_inst|in_changed at LCCOMB_X23_Y25_N0
+C1_in_changed = C1_ff_reg[1] $ (C1_ff_reg[0]);
+
+
+--E1L31 is ps2:ps2_inst|cnt_next~0 at LCCOMB_X28_Y28_N22
+E1L31 = E1_cnt_reg[0] $ (E1_state_reg.RECEIVING);
+
+
+--E1L32 is ps2:ps2_inst|cnt_next~1 at LCCOMB_X28_Y28_N26
+E1L32 = E1_cnt_reg[1] $ (((E1_state_reg.RECEIVING & E1_cnt_reg[0])));
+
+
+--E1L33 is ps2:ps2_inst|cnt_next~2 at LCCOMB_X26_Y28_N2
+E1L33 = E1_cnt_reg[2] $ (((E1_cnt_reg[0] & (E1_cnt_reg[1] & E1_state_reg.RECEIVING))));
+
+
+--E1L1 is ps2:ps2_inst|Add0~0 at LCCOMB_X29_Y28_N30
+E1L1 = E1_cnt_reg[3] $ (((E1_cnt_reg[0] & (E1_cnt_reg[1] & E1_cnt_reg[2]))));
+
+
+
+--CLOCK_50_2 is CLOCK_50_2 at PIN_B12
+CLOCK_50_2 = INPUT();
+
+
+
+--BUTTON[0] is BUTTON[0] at PIN_H2
+BUTTON[0] = INPUT();
+
+
+
+--BUTTON[1] is BUTTON[1] at PIN_G3
+BUTTON[1] = INPUT();
+
+
+
+--BUTTON[2] is BUTTON[2] at PIN_F1
+BUTTON[2] = INPUT();
+
+
+
+--SW[0] is SW[0] at PIN_J6
+SW[0] = INPUT();
+
+
+
+--SW[1] is SW[1] at PIN_H5
+SW[1] = INPUT();
+
+
+
+--SW[2] is SW[2] at PIN_H6
+SW[2] = INPUT();
+
+
+
+--SW[3] is SW[3] at PIN_G4
+SW[3] = INPUT();
+
+
+
+--SW[4] is SW[4] at PIN_G5
+SW[4] = INPUT();
+
+
+
+--SW[5] is SW[5] at PIN_J7
+SW[5] = INPUT();
+
+
+
+--SW[6] is SW[6] at PIN_H7
+SW[6] = INPUT();
+
+
+
+--SW[7] is SW[7] at PIN_E3
+SW[7] = INPUT();
+
+
+
+--SW[8] is SW[8] at PIN_E4
+SW[8] = INPUT();
+
+
+--A1L435 is HEX0_D[0]~output at IOOBUF_X21_Y29_N23
+A1L435 = OUTPUT_BUFFER.O(.I(D1L14), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[0] is HEX0_D[0] at PIN_E11
+HEX0_D[0] = OUTPUT();
+
+
+--A1L437 is HEX0_D[1]~output at IOOBUF_X21_Y29_N30
+A1L437 = OUTPUT_BUFFER.O(.I(D1L12), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[1] is HEX0_D[1] at PIN_F11
+HEX0_D[1] = OUTPUT();
+
+
+--A1L439 is HEX0_D[2]~output at IOOBUF_X26_Y29_N2
+A1L439 = OUTPUT_BUFFER.O(.I(D1L10), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[2] is HEX0_D[2] at PIN_H12
+HEX0_D[2] = OUTPUT();
+
+
+--A1L441 is HEX0_D[3]~output at IOOBUF_X28_Y29_N30
+A1L441 = OUTPUT_BUFFER.O(.I(D1L8), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[3] is HEX0_D[3] at PIN_H13
+HEX0_D[3] = OUTPUT();
+
+
+--A1L443 is HEX0_D[4]~output at IOOBUF_X26_Y29_N9
+A1L443 = OUTPUT_BUFFER.O(.I(D1L6), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[4] is HEX0_D[4] at PIN_G12
+HEX0_D[4] = OUTPUT();
+
+
+--A1L445 is HEX0_D[5]~output at IOOBUF_X28_Y29_N23
+A1L445 = OUTPUT_BUFFER.O(.I(D1L4), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[5] is HEX0_D[5] at PIN_F12
+HEX0_D[5] = OUTPUT();
+
+
+--A1L447 is HEX0_D[6]~output at IOOBUF_X26_Y29_N16
+A1L447 = OUTPUT_BUFFER.O(.I(!D1L2), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[6] is HEX0_D[6] at PIN_F13
+HEX0_D[6] = OUTPUT();
+
+
+--A1L433 is HEX0_DP~output at IOOBUF_X23_Y29_N9
+A1L433 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_DP is HEX0_DP at PIN_D13
+HEX0_DP = OUTPUT();
+
+
+--A1L452 is HEX1_D[0]~output at IOOBUF_X21_Y29_N2
+A1L452 = OUTPUT_BUFFER.O(.I(D1L28), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[0] is HEX1_D[0] at PIN_A13
+HEX1_D[0] = OUTPUT();
+
+
+--A1L454 is HEX1_D[1]~output at IOOBUF_X21_Y29_N9
+A1L454 = OUTPUT_BUFFER.O(.I(D1L26), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[1] is HEX1_D[1] at PIN_B13
+HEX1_D[1] = OUTPUT();
+
+
+--A1L456 is HEX1_D[2]~output at IOOBUF_X23_Y29_N2
+A1L456 = OUTPUT_BUFFER.O(.I(D1L24), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[2] is HEX1_D[2] at PIN_C13
+HEX1_D[2] = OUTPUT();
+
+
+--A1L458 is HEX1_D[3]~output at IOOBUF_X23_Y29_N23
+A1L458 = OUTPUT_BUFFER.O(.I(D1L22), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[3] is HEX1_D[3] at PIN_A14
+HEX1_D[3] = OUTPUT();
+
+
+--A1L460 is HEX1_D[4]~output at IOOBUF_X23_Y29_N30
+A1L460 = OUTPUT_BUFFER.O(.I(D1L20), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[4] is HEX1_D[4] at PIN_B14
+HEX1_D[4] = OUTPUT();
+
+
+--A1L462 is HEX1_D[5]~output at IOOBUF_X28_Y29_N16
+A1L462 = OUTPUT_BUFFER.O(.I(D1L18), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[5] is HEX1_D[5] at PIN_E14
+HEX1_D[5] = OUTPUT();
+
+
+--A1L464 is HEX1_D[6]~output at IOOBUF_X26_Y29_N23
+A1L464 = OUTPUT_BUFFER.O(.I(!D1L16), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[6] is HEX1_D[6] at PIN_A15
+HEX1_D[6] = OUTPUT();
+
+
+--A1L450 is HEX1_DP~output at IOOBUF_X26_Y29_N30
+A1L450 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_DP is HEX1_DP at PIN_B15
+HEX1_DP = OUTPUT();
+
+
+--A1L469 is HEX2_D[0]~output at IOOBUF_X32_Y29_N30
+A1L469 = OUTPUT_BUFFER.O(.I(D1L42), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[0] is HEX2_D[0] at PIN_D15
+HEX2_D[0] = OUTPUT();
+
+
+--A1L471 is HEX2_D[1]~output at IOOBUF_X30_Y29_N30
+A1L471 = OUTPUT_BUFFER.O(.I(D1L40), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[1] is HEX2_D[1] at PIN_A16
+HEX2_D[1] = OUTPUT();
+
+
+--A1L473 is HEX2_D[2]~output at IOOBUF_X28_Y29_N2
+A1L473 = OUTPUT_BUFFER.O(.I(D1L38), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[2] is HEX2_D[2] at PIN_B16
+HEX2_D[2] = OUTPUT();
+
+
+--A1L475 is HEX2_D[3]~output at IOOBUF_X30_Y29_N2
+A1L475 = OUTPUT_BUFFER.O(.I(D1L36), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[3] is HEX2_D[3] at PIN_E15
+HEX2_D[3] = OUTPUT();
+
+
+--A1L477 is HEX2_D[4]~output at IOOBUF_X30_Y29_N16
+A1L477 = OUTPUT_BUFFER.O(.I(D1L34), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[4] is HEX2_D[4] at PIN_A17
+HEX2_D[4] = OUTPUT();
+
+
+--A1L479 is HEX2_D[5]~output at IOOBUF_X30_Y29_N23
+A1L479 = OUTPUT_BUFFER.O(.I(D1L32), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[5] is HEX2_D[5] at PIN_B17
+HEX2_D[5] = OUTPUT();
+
+
+--A1L481 is HEX2_D[6]~output at IOOBUF_X37_Y29_N2
+A1L481 = OUTPUT_BUFFER.O(.I(!D1L30), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[6] is HEX2_D[6] at PIN_F14
+HEX2_D[6] = OUTPUT();
+
+
+--A1L467 is HEX2_DP~output at IOOBUF_X32_Y29_N16
+A1L467 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_DP is HEX2_DP at PIN_A18
+HEX2_DP = OUTPUT();
+
+
+--A1L486 is HEX3_D[0]~output at IOOBUF_X32_Y29_N23
+A1L486 = OUTPUT_BUFFER.O(.I(D1L56), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[0] is HEX3_D[0] at PIN_B18
+HEX3_D[0] = OUTPUT();
+
+
+--A1L488 is HEX3_D[1]~output at IOOBUF_X39_Y29_N16
+A1L488 = OUTPUT_BUFFER.O(.I(D1L54), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[1] is HEX3_D[1] at PIN_F15
+HEX3_D[1] = OUTPUT();
+
+
+--A1L490 is HEX3_D[2]~output at IOOBUF_X32_Y29_N9
+A1L490 = OUTPUT_BUFFER.O(.I(D1L52), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[2] is HEX3_D[2] at PIN_A19
+HEX3_D[2] = OUTPUT();
+
+
+--A1L492 is HEX3_D[3]~output at IOOBUF_X32_Y29_N2
+A1L492 = OUTPUT_BUFFER.O(.I(D1L50), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[3] is HEX3_D[3] at PIN_B19
+HEX3_D[3] = OUTPUT();
+
+
+--A1L494 is HEX3_D[4]~output at IOOBUF_X37_Y29_N23
+A1L494 = OUTPUT_BUFFER.O(.I(D1L48), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[4] is HEX3_D[4] at PIN_C19
+HEX3_D[4] = OUTPUT();
+
+
+--A1L496 is HEX3_D[5]~output at IOOBUF_X37_Y29_N30
+A1L496 = OUTPUT_BUFFER.O(.I(D1L46), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[5] is HEX3_D[5] at PIN_D19
+HEX3_D[5] = OUTPUT();
+
+
+--A1L498 is HEX3_D[6]~output at IOOBUF_X39_Y29_N30
+A1L498 = OUTPUT_BUFFER.O(.I(D1L44), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[6] is HEX3_D[6] at PIN_G15
+HEX3_D[6] = OUTPUT();
+
+
+--A1L484 is HEX3_DP~output at IOOBUF_X39_Y29_N23
+A1L484 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_DP is HEX3_DP at PIN_G16
+HEX3_DP = OUTPUT();
+
+
+--A1L534 is LEDG[0]~output at IOOBUF_X0_Y20_N9
+A1L534 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[0] is LEDG[0] at PIN_J1
+LEDG[0] = OUTPUT();
+
+
+--A1L536 is LEDG[1]~output at IOOBUF_X0_Y20_N2
+A1L536 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[1] is LEDG[1] at PIN_J2
+LEDG[1] = OUTPUT();
+
+
+--A1L538 is LEDG[2]~output at IOOBUF_X0_Y21_N23
+A1L538 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[2] is LEDG[2] at PIN_J3
+LEDG[2] = OUTPUT();
+
+
+--A1L540 is LEDG[3]~output at IOOBUF_X0_Y21_N16
+A1L540 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[3] is LEDG[3] at PIN_H1
+LEDG[3] = OUTPUT();
+
+
+--A1L542 is LEDG[4]~output at IOOBUF_X0_Y24_N23
+A1L542 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[4] is LEDG[4] at PIN_F2
+LEDG[4] = OUTPUT();
+
+
+--A1L544 is LEDG[5]~output at IOOBUF_X0_Y24_N16
+A1L544 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[5] is LEDG[5] at PIN_E1
+LEDG[5] = OUTPUT();
+
+
+--A1L546 is LEDG[6]~output at IOOBUF_X0_Y26_N23
+A1L546 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[6] is LEDG[6] at PIN_C1
+LEDG[6] = OUTPUT();
+
+
+--A1L548 is LEDG[7]~output at IOOBUF_X0_Y26_N16
+A1L548 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[7] is LEDG[7] at PIN_C2
+LEDG[7] = OUTPUT();
+
+
+--A1L550 is LEDG[8]~output at IOOBUF_X0_Y27_N9
+A1L550 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[8] is LEDG[8] at PIN_B2
+LEDG[8] = OUTPUT();
+
+
+--A1L552 is LEDG[9]~output at IOOBUF_X0_Y27_N16
+A1L552 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[9] is LEDG[9] at PIN_B1
+LEDG[9] = OUTPUT();
+
+
+--A1L606 is UART_TXD~output at IOOBUF_X41_Y8_N2
+A1L606 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--UART_TXD is UART_TXD at PIN_U21
+UART_TXD = OUTPUT();
+
+
+
+--UART_RXD is UART_RXD at PIN_U22
+UART_RXD = INPUT();
+
+
+--A1L600 is UART_CTS~output at IOOBUF_X41_Y8_N23
+A1L600 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--UART_CTS is UART_CTS at PIN_V21
+UART_CTS = OUTPUT();
+
+
+
+--UART_RTS is UART_RTS at PIN_V22
+UART_RTS = INPUT();
+
+
+--A1L15 is DRAM_ADDR[0]~output at IOOBUF_X1_Y29_N2
+A1L15 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[0] is DRAM_ADDR[0] at PIN_C4
+DRAM_ADDR[0] = OUTPUT();
+
+
+--A1L17 is DRAM_ADDR[1]~output at IOOBUF_X3_Y29_N2
+A1L17 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[1] is DRAM_ADDR[1] at PIN_A3
+DRAM_ADDR[1] = OUTPUT();
+
+
+--A1L19 is DRAM_ADDR[2]~output at IOOBUF_X3_Y29_N9
+A1L19 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[2] is DRAM_ADDR[2] at PIN_B3
+DRAM_ADDR[2] = OUTPUT();
+
+
+--A1L21 is DRAM_ADDR[3]~output at IOOBUF_X3_Y29_N30
+A1L21 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[3] is DRAM_ADDR[3] at PIN_C3
+DRAM_ADDR[3] = OUTPUT();
+
+
+--A1L23 is DRAM_ADDR[4]~output at IOOBUF_X7_Y29_N9
+A1L23 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[4] is DRAM_ADDR[4] at PIN_A5
+DRAM_ADDR[4] = OUTPUT();
+
+
+--A1L25 is DRAM_ADDR[5]~output at IOOBUF_X5_Y29_N2
+A1L25 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[5] is DRAM_ADDR[5] at PIN_C6
+DRAM_ADDR[5] = OUTPUT();
+
+
+--A1L27 is DRAM_ADDR[6]~output at IOOBUF_X11_Y29_N23
+A1L27 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[6] is DRAM_ADDR[6] at PIN_B6
+DRAM_ADDR[6] = OUTPUT();
+
+
+--A1L29 is DRAM_ADDR[7]~output at IOOBUF_X11_Y29_N16
+A1L29 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[7] is DRAM_ADDR[7] at PIN_A6
+DRAM_ADDR[7] = OUTPUT();
+
+
+--A1L31 is DRAM_ADDR[8]~output at IOOBUF_X9_Y29_N9
+A1L31 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[8] is DRAM_ADDR[8] at PIN_C7
+DRAM_ADDR[8] = OUTPUT();
+
+
+--A1L33 is DRAM_ADDR[9]~output at IOOBUF_X11_Y29_N9
+A1L33 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[9] is DRAM_ADDR[9] at PIN_B7
+DRAM_ADDR[9] = OUTPUT();
+
+
+--A1L35 is DRAM_ADDR[10]~output at IOOBUF_X5_Y29_N16
+A1L35 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[10] is DRAM_ADDR[10] at PIN_B4
+DRAM_ADDR[10] = OUTPUT();
+
+
+--A1L37 is DRAM_ADDR[11]~output at IOOBUF_X11_Y29_N2
+A1L37 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[11] is DRAM_ADDR[11] at PIN_A7
+DRAM_ADDR[11] = OUTPUT();
+
+
+--A1L39 is DRAM_ADDR[12]~output at IOOBUF_X9_Y29_N2
+A1L39 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[12] is DRAM_ADDR[12] at PIN_C8
+DRAM_ADDR[12] = OUTPUT();
+
+
+--A1L102 is DRAM_LDQM~output at IOOBUF_X3_Y29_N23
+A1L102 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_LDQM is DRAM_LDQM at PIN_E7
+DRAM_LDQM = OUTPUT();
+
+
+--A1L106 is DRAM_UDQM~output at IOOBUF_X14_Y29_N30
+A1L106 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_UDQM is DRAM_UDQM at PIN_B8
+DRAM_UDQM = OUTPUT();
+
+
+--A1L108 is DRAM_WE_N~output at IOOBUF_X3_Y29_N16
+A1L108 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_WE_N is DRAM_WE_N at PIN_D6
+DRAM_WE_N = OUTPUT();
+
+
+--A1L45 is DRAM_CAS_N~output at IOOBUF_X5_Y29_N30
+A1L45 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CAS_N is DRAM_CAS_N at PIN_G8
+DRAM_CAS_N = OUTPUT();
+
+
+--A1L104 is DRAM_RAS_N~output at IOOBUF_X1_Y29_N9
+A1L104 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_RAS_N is DRAM_RAS_N at PIN_F7
+DRAM_RAS_N = OUTPUT();
+
+
+--A1L51 is DRAM_CS_N~output at IOOBUF_X1_Y29_N16
+A1L51 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CS_N is DRAM_CS_N at PIN_G7
+DRAM_CS_N = OUTPUT();
+
+
+--A1L41 is DRAM_BA_0~output at IOOBUF_X7_Y29_N16
+A1L41 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_BA_0 is DRAM_BA_0 at PIN_B5
+DRAM_BA_0 = OUTPUT();
+
+
+--A1L43 is DRAM_BA_1~output at IOOBUF_X5_Y29_N9
+A1L43 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_BA_1 is DRAM_BA_1 at PIN_A4
+DRAM_BA_1 = OUTPUT();
+
+
+--A1L49 is DRAM_CLK~output at IOOBUF_X1_Y29_N30
+A1L49 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CLK is DRAM_CLK at PIN_E5
+DRAM_CLK = OUTPUT();
+
+
+--A1L47 is DRAM_CKE~output at IOOBUF_X1_Y29_N23
+A1L47 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CKE is DRAM_CKE at PIN_E6
+DRAM_CKE = OUTPUT();
+
+
+--A1L111 is FL_ADDR[0]~output at IOOBUF_X0_Y5_N2
+A1L111 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[0] is FL_ADDR[0] at PIN_P7
+FL_ADDR[0] = OUTPUT();
+
+
+--A1L113 is FL_ADDR[1]~output at IOOBUF_X0_Y8_N9
+A1L113 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[1] is FL_ADDR[1] at PIN_P5
+FL_ADDR[1] = OUTPUT();
+
+
+--A1L115 is FL_ADDR[2]~output at IOOBUF_X0_Y4_N9
+A1L115 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[2] is FL_ADDR[2] at PIN_P6
+FL_ADDR[2] = OUTPUT();
+
+
+--A1L117 is FL_ADDR[3]~output at IOOBUF_X0_Y6_N23
+A1L117 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[3] is FL_ADDR[3] at PIN_N7
+FL_ADDR[3] = OUTPUT();
+
+
+--A1L119 is FL_ADDR[4]~output at IOOBUF_X0_Y10_N16
+A1L119 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[4] is FL_ADDR[4] at PIN_N5
+FL_ADDR[4] = OUTPUT();
+
+
+--A1L121 is FL_ADDR[5]~output at IOOBUF_X0_Y8_N16
+A1L121 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[5] is FL_ADDR[5] at PIN_N6
+FL_ADDR[5] = OUTPUT();
+
+
+--A1L123 is FL_ADDR[6]~output at IOOBUF_X0_Y7_N2
+A1L123 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[6] is FL_ADDR[6] at PIN_M8
+FL_ADDR[6] = OUTPUT();
+
+
+--A1L125 is FL_ADDR[7]~output at IOOBUF_X0_Y12_N2
+A1L125 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[7] is FL_ADDR[7] at PIN_M4
+FL_ADDR[7] = OUTPUT();
+
+
+--A1L127 is FL_ADDR[8]~output at IOOBUF_X0_Y11_N16
+A1L127 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[8] is FL_ADDR[8] at PIN_P2
+FL_ADDR[8] = OUTPUT();
+
+
+--A1L129 is FL_ADDR[9]~output at IOOBUF_X0_Y12_N16
+A1L129 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[9] is FL_ADDR[9] at PIN_N2
+FL_ADDR[9] = OUTPUT();
+
+
+--A1L131 is FL_ADDR[10]~output at IOOBUF_X0_Y12_N23
+A1L131 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[10] is FL_ADDR[10] at PIN_N1
+FL_ADDR[10] = OUTPUT();
+
+
+--A1L133 is FL_ADDR[11]~output at IOOBUF_X0_Y12_N9
+A1L133 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[11] is FL_ADDR[11] at PIN_M3
+FL_ADDR[11] = OUTPUT();
+
+
+--A1L135 is FL_ADDR[12]~output at IOOBUF_X0_Y13_N16
+A1L135 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[12] is FL_ADDR[12] at PIN_M2
+FL_ADDR[12] = OUTPUT();
+
+
+--A1L137 is FL_ADDR[13]~output at IOOBUF_X0_Y13_N23
+A1L137 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[13] is FL_ADDR[13] at PIN_M1
+FL_ADDR[13] = OUTPUT();
+
+
+--A1L139 is FL_ADDR[14]~output at IOOBUF_X0_Y11_N2
+A1L139 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[14] is FL_ADDR[14] at PIN_L7
+FL_ADDR[14] = OUTPUT();
+
+
+--A1L141 is FL_ADDR[15]~output at IOOBUF_X0_Y13_N2
+A1L141 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[15] is FL_ADDR[15] at PIN_L6
+FL_ADDR[15] = OUTPUT();
+
+
+--A1L143 is FL_ADDR[16]~output at IOOBUF_X0_Y5_N9
+A1L143 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[16] is FL_ADDR[16] at PIN_AA2
+FL_ADDR[16] = OUTPUT();
+
+
+--A1L145 is FL_ADDR[17]~output at IOOBUF_X0_Y11_N9
+A1L145 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[17] is FL_ADDR[17] at PIN_M5
+FL_ADDR[17] = OUTPUT();
+
+
+--A1L147 is FL_ADDR[18]~output at IOOBUF_X0_Y13_N9
+A1L147 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[18] is FL_ADDR[18] at PIN_M6
+FL_ADDR[18] = OUTPUT();
+
+
+--A1L149 is FL_ADDR[19]~output at IOOBUF_X0_Y11_N23
+A1L149 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[19] is FL_ADDR[19] at PIN_P1
+FL_ADDR[19] = OUTPUT();
+
+
+--A1L151 is FL_ADDR[20]~output at IOOBUF_X0_Y9_N2
+A1L151 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[20] is FL_ADDR[20] at PIN_P3
+FL_ADDR[20] = OUTPUT();
+
+
+--A1L153 is FL_ADDR[21]~output at IOOBUF_X0_Y10_N2
+A1L153 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[21] is FL_ADDR[21] at PIN_R2
+FL_ADDR[21] = OUTPUT();
+
+
+--A1L214 is FL_WE_N~output at IOOBUF_X0_Y10_N23
+A1L214 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_WE_N is FL_WE_N at PIN_P4
+FL_WE_N = OUTPUT();
+
+
+--A1L210 is FL_RST_N~output at IOOBUF_X0_Y10_N9
+A1L210 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_RST_N is FL_RST_N at PIN_R1
+FL_RST_N = OUTPUT();
+
+
+--A1L208 is FL_OE_N~output at IOOBUF_X0_Y3_N9
+A1L208 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_OE_N is FL_OE_N at PIN_R6
+FL_OE_N = OUTPUT();
+
+
+--A1L157 is FL_CE_N~output at IOOBUF_X0_Y7_N9
+A1L157 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_CE_N is FL_CE_N at PIN_N8
+FL_CE_N = OUTPUT();
+
+
+--A1L216 is FL_WP_N~output at IOOBUF_X0_Y6_N16
+A1L216 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_WP_N is FL_WP_N at PIN_T3
+FL_WP_N = OUTPUT();
+
+
+--A1L155 is FL_BYTE_N~output at IOOBUF_X0_Y5_N16
+A1L155 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_BYTE_N is FL_BYTE_N at PIN_AA1
+FL_BYTE_N = OUTPUT();
+
+
+
+--FL_RY is FL_RY at PIN_M7
+FL_RY = INPUT();
+
+
+--A1L500 is LCD_BLON~output at IOOBUF_X41_Y22_N16
+A1L500 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_BLON is LCD_BLON at PIN_F21
+LCD_BLON = OUTPUT();
+
+
+--A1L531 is LCD_RW~output at IOOBUF_X41_Y23_N16
+A1L531 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_RW is LCD_RW at PIN_E22
+LCD_RW = OUTPUT();
+
+
+--A1L527 is LCD_EN~output at IOOBUF_X41_Y23_N9
+A1L527 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_EN is LCD_EN at PIN_E21
+LCD_EN = OUTPUT();
+
+
+--A1L529 is LCD_RS~output at IOOBUF_X41_Y22_N23
+A1L529 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_RS is LCD_RS at PIN_F22
+LCD_RS = OUTPUT();
+
+
+--A1L566 is SD_CLK~output at IOOBUF_X41_Y4_N9
+A1L566 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--SD_CLK is SD_CLK at PIN_Y21
+SD_CLK = OUTPUT();
+
+
+
+--SD_WP_N is SD_WP_N at PIN_W20
+SD_WP_N = INPUT();
+
+
+--A1L626 is VGA_HS~output at IOOBUF_X41_Y18_N16
+A1L626 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_HS is VGA_HS at PIN_L21
+VGA_HS = OUTPUT();
+
+
+--A1L637 is VGA_VS~output at IOOBUF_X41_Y18_N23
+A1L637 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_VS is VGA_VS at PIN_L22
+VGA_VS = OUTPUT();
+
+
+--A1L629 is VGA_R[0]~output at IOOBUF_X41_Y23_N23
+A1L629 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[0] is VGA_R[0] at PIN_H19
+VGA_R[0] = OUTPUT();
+
+
+--A1L631 is VGA_R[1]~output at IOOBUF_X41_Y25_N2
+A1L631 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[1] is VGA_R[1] at PIN_H17
+VGA_R[1] = OUTPUT();
+
+
+--A1L633 is VGA_R[2]~output at IOOBUF_X41_Y22_N2
+A1L633 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[2] is VGA_R[2] at PIN_H20
+VGA_R[2] = OUTPUT();
+
+
+--A1L635 is VGA_R[3]~output at IOOBUF_X41_Y21_N23
+A1L635 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[3] is VGA_R[3] at PIN_H21
+VGA_R[3] = OUTPUT();
+
+
+--A1L618 is VGA_G[0]~output at IOOBUF_X41_Y20_N2
+A1L618 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[0] is VGA_G[0] at PIN_H22
+VGA_G[0] = OUTPUT();
+
+
+--A1L620 is VGA_G[1]~output at IOOBUF_X41_Y24_N23
+A1L620 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[1] is VGA_G[1] at PIN_J17
+VGA_G[1] = OUTPUT();
+
+
+--A1L622 is VGA_G[2]~output at IOOBUF_X41_Y21_N16
+A1L622 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[2] is VGA_G[2] at PIN_K17
+VGA_G[2] = OUTPUT();
+
+
+--A1L624 is VGA_G[3]~output at IOOBUF_X41_Y20_N23
+A1L624 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[3] is VGA_G[3] at PIN_J21
+VGA_G[3] = OUTPUT();
+
+
+--A1L609 is VGA_B[0]~output at IOOBUF_X41_Y19_N16
+A1L609 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[0] is VGA_B[0] at PIN_K22
+VGA_B[0] = OUTPUT();
+
+
+--A1L611 is VGA_B[1]~output at IOOBUF_X41_Y19_N9
+A1L611 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[1] is VGA_B[1] at PIN_K21
+VGA_B[1] = OUTPUT();
+
+
+--A1L613 is VGA_B[2]~output at IOOBUF_X41_Y19_N2
+A1L613 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[2] is VGA_B[2] at PIN_J22
+VGA_B[2] = OUTPUT();
+
+
+--A1L615 is VGA_B[3]~output at IOOBUF_X41_Y21_N9
+A1L615 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[3] is VGA_B[3] at PIN_K18
+VGA_B[3] = OUTPUT();
+
+
+
+--GPIO0_CLKIN[0] is GPIO0_CLKIN[0] at PIN_AB12
+GPIO0_CLKIN[0] = INPUT();
+
+
+
+--GPIO0_CLKIN[1] is GPIO0_CLKIN[1] at PIN_AA12
+GPIO0_CLKIN[1] = INPUT();
+
+
+--A1L224 is GPIO0_CLKOUT[0]~output at IOOBUF_X7_Y0_N30
+A1L224 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO0_CLKOUT[0] is GPIO0_CLKOUT[0] at PIN_AB3
+GPIO0_CLKOUT[0] = OUTPUT();
+
+
+--A1L226 is GPIO0_CLKOUT[1]~output at IOOBUF_X5_Y0_N2
+A1L226 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO0_CLKOUT[1] is GPIO0_CLKOUT[1] at PIN_AA3
+GPIO0_CLKOUT[1] = OUTPUT();
+
+
+
+--GPIO1_CLKIN[0] is GPIO1_CLKIN[0] at PIN_AB11
+GPIO1_CLKIN[0] = INPUT();
+
+
+
+--GPIO1_CLKIN[1] is GPIO1_CLKIN[1] at PIN_AA11
+GPIO1_CLKIN[1] = INPUT();
+
+
+--A1L331 is GPIO1_CLKOUT[0]~output at IOOBUF_X37_Y0_N2
+A1L331 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO1_CLKOUT[0] is GPIO1_CLKOUT[0] at PIN_R16
+GPIO1_CLKOUT[0] = OUTPUT();
+
+
+--A1L333 is GPIO1_CLKOUT[1]~output at IOOBUF_X37_Y0_N9
+A1L333 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO1_CLKOUT[1] is GPIO1_CLKOUT[1] at PIN_T16
+GPIO1_CLKOUT[1] = OUTPUT();
+
+
+--DRAM_DQ[0] is DRAM_DQ[0] at PIN_D10
+DRAM_DQ[0] = BIDIR();
+
+
+
+--DRAM_DQ[1] is DRAM_DQ[1] at PIN_G10
+DRAM_DQ[1] = BIDIR();
+
+
+
+--DRAM_DQ[2] is DRAM_DQ[2] at PIN_H10
+DRAM_DQ[2] = BIDIR();
+
+
+
+--DRAM_DQ[3] is DRAM_DQ[3] at PIN_E9
+DRAM_DQ[3] = BIDIR();
+
+
+
+--DRAM_DQ[4] is DRAM_DQ[4] at PIN_F9
+DRAM_DQ[4] = BIDIR();
+
+
+
+--DRAM_DQ[5] is DRAM_DQ[5] at PIN_G9
+DRAM_DQ[5] = BIDIR();
+
+
+
+--DRAM_DQ[6] is DRAM_DQ[6] at PIN_H9
+DRAM_DQ[6] = BIDIR();
+
+
+
+--DRAM_DQ[7] is DRAM_DQ[7] at PIN_F8
+DRAM_DQ[7] = BIDIR();
+
+
+
+--DRAM_DQ[8] is DRAM_DQ[8] at PIN_A8
+DRAM_DQ[8] = BIDIR();
+
+
+
+--DRAM_DQ[9] is DRAM_DQ[9] at PIN_B9
+DRAM_DQ[9] = BIDIR();
+
+
+
+--DRAM_DQ[10] is DRAM_DQ[10] at PIN_A9
+DRAM_DQ[10] = BIDIR();
+
+
+
+--DRAM_DQ[11] is DRAM_DQ[11] at PIN_C10
+DRAM_DQ[11] = BIDIR();
+
+
+
+--DRAM_DQ[12] is DRAM_DQ[12] at PIN_B10
+DRAM_DQ[12] = BIDIR();
+
+
+
+--DRAM_DQ[13] is DRAM_DQ[13] at PIN_A10
+DRAM_DQ[13] = BIDIR();
+
+
+
+--DRAM_DQ[14] is DRAM_DQ[14] at PIN_E10
+DRAM_DQ[14] = BIDIR();
+
+
+
+--DRAM_DQ[15] is DRAM_DQ[15] at PIN_F10
+DRAM_DQ[15] = BIDIR();
+
+
+
+--FL_DQ[0] is FL_DQ[0] at PIN_R7
+FL_DQ[0] = BIDIR();
+
+
+
+--FL_DQ[1] is FL_DQ[1] at PIN_P8
+FL_DQ[1] = BIDIR();
+
+
+
+--FL_DQ[2] is FL_DQ[2] at PIN_R8
+FL_DQ[2] = BIDIR();
+
+
+
+--FL_DQ[3] is FL_DQ[3] at PIN_U1
+FL_DQ[3] = BIDIR();
+
+
+
+--FL_DQ[4] is FL_DQ[4] at PIN_V2
+FL_DQ[4] = BIDIR();
+
+
+
+--FL_DQ[5] is FL_DQ[5] at PIN_V3
+FL_DQ[5] = BIDIR();
+
+
+
+--FL_DQ[6] is FL_DQ[6] at PIN_W1
+FL_DQ[6] = BIDIR();
+
+
+
+--FL_DQ[7] is FL_DQ[7] at PIN_Y1
+FL_DQ[7] = BIDIR();
+
+
+
+--FL_DQ[8] is FL_DQ[8] at PIN_T5
+FL_DQ[8] = BIDIR();
+
+
+
+--FL_DQ[9] is FL_DQ[9] at PIN_T7
+FL_DQ[9] = BIDIR();
+
+
+
+--FL_DQ[10] is FL_DQ[10] at PIN_T4
+FL_DQ[10] = BIDIR();
+
+
+
+--FL_DQ[11] is FL_DQ[11] at PIN_U2
+FL_DQ[11] = BIDIR();
+
+
+
+--FL_DQ[12] is FL_DQ[12] at PIN_V1
+FL_DQ[12] = BIDIR();
+
+
+
+--FL_DQ[13] is FL_DQ[13] at PIN_V4
+FL_DQ[13] = BIDIR();
+
+
+
+--FL_DQ[14] is FL_DQ[14] at PIN_W2
+FL_DQ[14] = BIDIR();
+
+
+
+--FL_DQ15_AM1 is FL_DQ15_AM1 at PIN_Y2
+FL_DQ15_AM1 = BIDIR();
+
+
+
+--LCD_DATA[0] is LCD_DATA[0] at PIN_D22
+LCD_DATA[0] = BIDIR();
+
+
+
+--LCD_DATA[1] is LCD_DATA[1] at PIN_D21
+LCD_DATA[1] = BIDIR();
+
+
+
+--LCD_DATA[2] is LCD_DATA[2] at PIN_C22
+LCD_DATA[2] = BIDIR();
+
+
+
+--LCD_DATA[3] is LCD_DATA[3] at PIN_C21
+LCD_DATA[3] = BIDIR();
+
+
+
+--LCD_DATA[4] is LCD_DATA[4] at PIN_B22
+LCD_DATA[4] = BIDIR();
+
+
+
+--LCD_DATA[5] is LCD_DATA[5] at PIN_B21
+LCD_DATA[5] = BIDIR();
+
+
+
+--LCD_DATA[6] is LCD_DATA[6] at PIN_D20
+LCD_DATA[6] = BIDIR();
+
+
+
+--LCD_DATA[7] is LCD_DATA[7] at PIN_C20
+LCD_DATA[7] = BIDIR();
+
+
+
+--SD_DAT0 is SD_DAT0 at PIN_AA22
+SD_DAT0 = BIDIR();
+
+
+
+--SD_DAT3 is SD_DAT3 at PIN_W21
+SD_DAT3 = BIDIR();
+
+
+
+--SD_CMD is SD_CMD at PIN_Y22
+SD_CMD = BIDIR();
+
+
+
+--PS2_MSDAT is PS2_MSDAT at PIN_R22
+PS2_MSDAT = BIDIR();
+
+
+
+--PS2_MSCLK is PS2_MSCLK at PIN_R21
+PS2_MSCLK = BIDIR();
+
+
+
+--GPIO0_D[0] is GPIO0_D[0] at PIN_AB16
+GPIO0_D[0] = BIDIR();
+
+
+
+--GPIO0_D[1] is GPIO0_D[1] at PIN_AA16
+GPIO0_D[1] = BIDIR();
+
+
+
+--GPIO0_D[2] is GPIO0_D[2] at PIN_AA15
+GPIO0_D[2] = BIDIR();
+
+
+
+--GPIO0_D[3] is GPIO0_D[3] at PIN_AB15
+GPIO0_D[3] = BIDIR();
+
+
+
+--GPIO0_D[4] is GPIO0_D[4] at PIN_AA14
+GPIO0_D[4] = BIDIR();
+
+
+
+--GPIO0_D[5] is GPIO0_D[5] at PIN_AB14
+GPIO0_D[5] = BIDIR();
+
+
+
+--GPIO0_D[6] is GPIO0_D[6] at PIN_AB13
+GPIO0_D[6] = BIDIR();
+
+
+
+--GPIO0_D[7] is GPIO0_D[7] at PIN_AA13
+GPIO0_D[7] = BIDIR();
+
+
+
+--GPIO0_D[8] is GPIO0_D[8] at PIN_AB10
+GPIO0_D[8] = BIDIR();
+
+
+
+--GPIO0_D[9] is GPIO0_D[9] at PIN_AA10
+GPIO0_D[9] = BIDIR();
+
+
+
+--GPIO0_D[10] is GPIO0_D[10] at PIN_AB8
+GPIO0_D[10] = BIDIR();
+
+
+
+--GPIO0_D[11] is GPIO0_D[11] at PIN_AA8
+GPIO0_D[11] = BIDIR();
+
+
+
+--GPIO0_D[12] is GPIO0_D[12] at PIN_AB5
+GPIO0_D[12] = BIDIR();
+
+
+
+--GPIO0_D[13] is GPIO0_D[13] at PIN_AA5
+GPIO0_D[13] = BIDIR();
+
+
+
+--GPIO0_D[14] is GPIO0_D[14] at PIN_AB4
+GPIO0_D[14] = BIDIR();
+
+
+
+--GPIO0_D[15] is GPIO0_D[15] at PIN_AA4
+GPIO0_D[15] = BIDIR();
+
+
+
+--GPIO0_D[16] is GPIO0_D[16] at PIN_V14
+GPIO0_D[16] = BIDIR();
+
+
+
+--GPIO0_D[17] is GPIO0_D[17] at PIN_U14
+GPIO0_D[17] = BIDIR();
+
+
+
+--GPIO0_D[18] is GPIO0_D[18] at PIN_Y13
+GPIO0_D[18] = BIDIR();
+
+
+
+--GPIO0_D[19] is GPIO0_D[19] at PIN_W13
+GPIO0_D[19] = BIDIR();
+
+
+
+--GPIO0_D[20] is GPIO0_D[20] at PIN_U13
+GPIO0_D[20] = BIDIR();
+
+
+
+--GPIO0_D[21] is GPIO0_D[21] at PIN_V12
+GPIO0_D[21] = BIDIR();
+
+
+
+--GPIO0_D[22] is GPIO0_D[22] at PIN_R10
+GPIO0_D[22] = BIDIR();
+
+
+
+--GPIO0_D[23] is GPIO0_D[23] at PIN_V11
+GPIO0_D[23] = BIDIR();
+
+
+
+--GPIO0_D[24] is GPIO0_D[24] at PIN_Y10
+GPIO0_D[24] = BIDIR();
+
+
+
+--GPIO0_D[25] is GPIO0_D[25] at PIN_W10
+GPIO0_D[25] = BIDIR();
+
+
+
+--GPIO0_D[26] is GPIO0_D[26] at PIN_T8
+GPIO0_D[26] = BIDIR();
+
+
+
+--GPIO0_D[27] is GPIO0_D[27] at PIN_V8
+GPIO0_D[27] = BIDIR();
+
+
+
+--GPIO0_D[28] is GPIO0_D[28] at PIN_W7
+GPIO0_D[28] = BIDIR();
+
+
+
+--GPIO0_D[29] is GPIO0_D[29] at PIN_W6
+GPIO0_D[29] = BIDIR();
+
+
+
+--GPIO0_D[30] is GPIO0_D[30] at PIN_V5
+GPIO0_D[30] = BIDIR();
+
+
+
+--GPIO0_D[31] is GPIO0_D[31] at PIN_U7
+GPIO0_D[31] = BIDIR();
+
+
+
+--GPIO1_D[0] is GPIO1_D[0] at PIN_AA20
+GPIO1_D[0] = BIDIR();
+
+
+
+--GPIO1_D[1] is GPIO1_D[1] at PIN_AB20
+GPIO1_D[1] = BIDIR();
+
+
+
+--GPIO1_D[2] is GPIO1_D[2] at PIN_AA19
+GPIO1_D[2] = BIDIR();
+
+
+
+--GPIO1_D[3] is GPIO1_D[3] at PIN_AB19
+GPIO1_D[3] = BIDIR();
+
+
+
+--GPIO1_D[4] is GPIO1_D[4] at PIN_AB18
+GPIO1_D[4] = BIDIR();
+
+
+
+--GPIO1_D[5] is GPIO1_D[5] at PIN_AA18
+GPIO1_D[5] = BIDIR();
+
+
+
+--GPIO1_D[6] is GPIO1_D[6] at PIN_AA17
+GPIO1_D[6] = BIDIR();
+
+
+
+--GPIO1_D[7] is GPIO1_D[7] at PIN_AB17
+GPIO1_D[7] = BIDIR();
+
+
+
+--GPIO1_D[8] is GPIO1_D[8] at PIN_Y17
+GPIO1_D[8] = BIDIR();
+
+
+
+--GPIO1_D[9] is GPIO1_D[9] at PIN_W17
+GPIO1_D[9] = BIDIR();
+
+
+
+--GPIO1_D[10] is GPIO1_D[10] at PIN_U15
+GPIO1_D[10] = BIDIR();
+
+
+
+--GPIO1_D[11] is GPIO1_D[11] at PIN_T15
+GPIO1_D[11] = BIDIR();
+
+
+
+--GPIO1_D[12] is GPIO1_D[12] at PIN_W15
+GPIO1_D[12] = BIDIR();
+
+
+
+--GPIO1_D[13] is GPIO1_D[13] at PIN_V15
+GPIO1_D[13] = BIDIR();
+
+
+
+--GPIO1_D[14] is GPIO1_D[14] at PIN_AB9
+GPIO1_D[14] = BIDIR();
+
+
+
+--GPIO1_D[15] is GPIO1_D[15] at PIN_AA9
+GPIO1_D[15] = BIDIR();
+
+
+
+--GPIO1_D[16] is GPIO1_D[16] at PIN_AA7
+GPIO1_D[16] = BIDIR();
+
+
+
+--GPIO1_D[17] is GPIO1_D[17] at PIN_AB7
+GPIO1_D[17] = BIDIR();
+
+
+
+--GPIO1_D[18] is GPIO1_D[18] at PIN_T14
+GPIO1_D[18] = BIDIR();
+
+
+
+--GPIO1_D[19] is GPIO1_D[19] at PIN_R14
+GPIO1_D[19] = BIDIR();
+
+
+
+--GPIO1_D[20] is GPIO1_D[20] at PIN_U12
+GPIO1_D[20] = BIDIR();
+
+
+
+--GPIO1_D[21] is GPIO1_D[21] at PIN_T12
+GPIO1_D[21] = BIDIR();
+
+
+
+--GPIO1_D[22] is GPIO1_D[22] at PIN_R11
+GPIO1_D[22] = BIDIR();
+
+
+
+--GPIO1_D[23] is GPIO1_D[23] at PIN_R12
+GPIO1_D[23] = BIDIR();
+
+
+
+--GPIO1_D[24] is GPIO1_D[24] at PIN_U10
+GPIO1_D[24] = BIDIR();
+
+
+
+--GPIO1_D[25] is GPIO1_D[25] at PIN_T10
+GPIO1_D[25] = BIDIR();
+
+
+
+--GPIO1_D[26] is GPIO1_D[26] at PIN_U9
+GPIO1_D[26] = BIDIR();
+
+
+
+--GPIO1_D[27] is GPIO1_D[27] at PIN_T9
+GPIO1_D[27] = BIDIR();
+
+
+
+--GPIO1_D[28] is GPIO1_D[28] at PIN_Y7
+GPIO1_D[28] = BIDIR();
+
+
+
+--GPIO1_D[29] is GPIO1_D[29] at PIN_U8
+GPIO1_D[29] = BIDIR();
+
+
+
+--GPIO1_D[30] is GPIO1_D[30] at PIN_V6
+GPIO1_D[30] = BIDIR();
+
+
+
+--GPIO1_D[31] is GPIO1_D[31] at PIN_V7
+GPIO1_D[31] = BIDIR();
+
+
+
+--PS2_KBDAT is PS2_KBDAT at PIN_P21
+PS2_KBDAT = BIDIR();
+
+
+--A1L557 is PS2_KBDAT~input at IOIBUF_X41_Y12_N22
+A1L557 = INPUT_BUFFER(.I(PS2_KBDAT), );
+
+
+--PS2_KBCLK is PS2_KBCLK at PIN_P22
+PS2_KBCLK = BIDIR();
+
+
+--A1L554 is PS2_KBCLK~input at IOIBUF_X41_Y11_N1
+A1L554 = INPUT_BUFFER(.I(PS2_KBCLK), );
+
+
+--A1L11 is CLOCK_50~input at IOIBUF_X41_Y15_N1
+A1L11 = INPUT_BUFFER(.I(CLOCK_50), );
+
+
+--CLOCK_50 is CLOCK_50 at PIN_G21
+CLOCK_50 = INPUT();
+
+
+--A1L598 is SW[9]~input at IOIBUF_X0_Y25_N1
+A1L598 = INPUT_BUFFER(.I(SW[9]), );
+
+
+--SW[9] is SW[9] at PIN_D2
+SW[9] = INPUT();
+
+
+
+
+
+
+
+
+
+
+--C1L36 is deb:deb_inst|out_reg~clkctrl at CLKCTRL_G11
+C1L36 = cycloneiii_clkctrl(.INCLK[0] = C1_out_reg) WITH (clock_type = "Global Clock", ena_register_mode = "none");
+
+
+--A1L12 is CLOCK_50~inputclkctrl at CLKCTRL_G9
+A1L12 = cycloneiii_clkctrl(.INCLK[0] = A1L11) WITH (clock_type = "Global Clock", ena_register_mode = "none");
+
+
+--E1L82 is ps2:ps2_inst|received_data_reg[1]~feeder at LCCOMB_X29_Y28_N22
+E1L82 = E1_received_data_next[1];
+
+
+--E1L90 is ps2:ps2_inst|received_data_reg[8]~feeder at LCCOMB_X26_Y28_N22
+E1L90 = E1_received_data_next[8];
+
+
+--E1L95 is ps2:ps2_inst|received_data_reg[12]~feeder at LCCOMB_X30_Y28_N30
+E1L95 = E1_received_data_next[12];
+
+
+--E1L41 is ps2:ps2_inst|error_reg~feeder at LCCOMB_X24_Y28_N16
+E1L41 = E1_error_next;
+
+
+--E1L103 is ps2:ps2_inst|state_next.STOP~feeder at LCCOMB_X28_Y28_N16
+E1L103 = E1_state_reg.CHECK;
+
+
+--E1L105 is ps2:ps2_inst|state_reg.CHECK~feeder at LCCOMB_X28_Y28_N18
+E1L105 = E1_state_next.CHECK;
+
+
+--E1L109 is ps2:ps2_inst|state_reg.STOP~feeder at LCCOMB_X28_Y28_N28
+E1L109 = E1_state_next.STOP;
+
+
+--C1L37 is deb:deb_inst|out_reg~feeder at LCCOMB_X23_Y25_N8
+C1L37 = C1L35;
+
+
+--C1L32 is deb:deb_inst|ff_reg[1]~feeder at LCCOMB_X23_Y25_N6
+C1L32 = C1_ff_reg[0];
+
+
+--C1L30 is deb:deb_inst|ff_reg[0]~feeder at LCCOMB_X23_Y25_N10
+C1L30 = A1L554;
+
+

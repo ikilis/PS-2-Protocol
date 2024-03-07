@@ -1,0 +1,14 @@
+
+State Machine - |DE0_TOP|ps2:ps2_inst|state_next
+Name state_next.STOP state_next.CHECK state_next.RECEIVING state_next.IDLE 
+state_next.IDLE 0 0 0 0 
+state_next.RECEIVING 0 0 1 1 
+state_next.CHECK 0 1 0 1 
+state_next.STOP 1 0 0 1 
+
+State Machine - |DE0_TOP|ps2:ps2_inst|state_reg
+Name state_reg.STOP state_reg.CHECK state_reg.RECEIVING state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 
+state_reg.RECEIVING 0 0 1 1 
+state_reg.CHECK 0 1 0 1 
+state_reg.STOP 1 0 0 1 
